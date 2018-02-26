@@ -6,7 +6,7 @@ using Invector.CharacterController;
 
 public class EnemyKills : MonoBehaviour 
 {
-	public Transform Player;
+	private GameObject Player;
 	//public Transform Key;
 
 	vCharacter chara;
@@ -16,6 +16,7 @@ public class EnemyKills : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		chara = GetComponent<vCharacter> ();
+		Player = GameObject.FindWithTag ("Player");
 	}
 	
 	// Update is called once per frame
