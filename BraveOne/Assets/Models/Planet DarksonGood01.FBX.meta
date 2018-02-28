@@ -1,77 +1,89 @@
 fileFormatVersion: 2
-guid: 5fdee3e8c53e3d6429dc0c581f30eaa3
-timeCreated: 1519828081
+guid: 4fef2ccfb21b5eb409cf5a1190968df6
+timeCreated: 1519850213
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: Box001
-    100002: Box002
-    100004: Line052
-    100006: Line053
-    100008: Line054
-    100010: Line055
-    100012: Line056
-    100014: Line057
-    100016: Line058
-    100018: Line059
-    100020: Line060
-    100022: Line061
-    100024: Line062
-    100026: Line063
-    100028: Line064
-    100030: Line078
-    100032: Object001
-    100034: Object002
-    100036: //RootNode
-    400000: Box001
-    400002: Box002
-    400004: Line052
-    400006: Line053
-    400008: Line054
-    400010: Line055
-    400012: Line056
-    400014: Line057
-    400016: Line058
-    400018: Line059
-    400020: Line060
-    400022: Line061
-    400024: Line062
-    400026: Line063
-    400028: Line064
-    400030: Line078
-    400032: Object001
-    400034: Object002
-    400036: //RootNode
-    2100000: city04
-    2100002: 'Material #14'
+    100000: Line052
+    100002: Line053
+    100004: Line054
+    100006: Line055
+    100008: Line056
+    100010: Line057
+    100012: Line058
+    100014: Line059
+    100016: Line060
+    100018: Line061
+    100020: Line062
+    100022: Line063
+    100024: Line064
+    100026: Line078
+    100028: minilandR
+    100030: minilandR2
+    100032: minilandR3
+    100034: minilandR4
+    100036: minilandR5
+    100038: Object001
+    100040: Object002
+    100042: //RootNode
+    400000: Line052
+    400002: Line053
+    400004: Line054
+    400006: Line055
+    400008: Line056
+    400010: Line057
+    400012: Line058
+    400014: Line059
+    400016: Line060
+    400018: Line061
+    400020: Line062
+    400022: Line063
+    400024: Line064
+    400026: Line078
+    400028: minilandR
+    400030: minilandR2
+    400032: minilandR3
+    400034: minilandR4
+    400036: minilandR5
+    400038: Object001
+    400040: Object002
+    400042: //RootNode
+    2100000: 'Material #14'
+    2100002: city04
     2100004: city02
-    2300000: Box002
-    2300002: Line052
-    2300004: Line053
-    2300006: Line055
-    2300008: Line056
-    2300010: Line057
-    2300012: Line061
-    2300014: Line062
-    2300016: Line063
-    2300018: Line064
-    2300020: Line078
-    2300022: Object001
-    2300024: Object002
-    3300000: Box002
-    3300002: Line052
-    3300004: Line053
-    3300006: Line055
-    3300008: Line056
-    3300010: Line057
-    3300012: Line061
-    3300014: Line062
-    3300016: Line063
-    3300018: Line064
-    3300020: Line078
-    3300022: Object001
-    3300024: Object002
+    2300000: Line052
+    2300002: Line053
+    2300004: Line055
+    2300006: Line056
+    2300008: Line057
+    2300010: Line061
+    2300012: Line062
+    2300014: Line064
+    2300016: Line078
+    2300018: minilandR
+    2300020: minilandR2
+    2300022: minilandR3
+    2300024: minilandR4
+    2300026: minilandR5
+    2300028: Object001
+    2300030: Object002
+    3300000: Line052
+    3300002: Line053
+    3300004: Line055
+    3300006: Line056
+    3300008: Line057
+    3300010: Line061
+    3300012: Line062
+    3300014: Line064
+    3300016: Line078
+    3300018: minilandR
+    3300020: minilandR2
+    3300022: minilandR3
+    3300024: minilandR4
+    3300026: minilandR5
+    3300028: Object001
+    3300030: Object002
     4300000: Line052
     4300002: Line053
     4300004: Line055
@@ -79,12 +91,15 @@ ModelImporter:
     4300008: Line057
     4300010: Line061
     4300012: Line062
-    4300014: Line063
-    4300016: Line064
-    4300018: Line078
-    4300020: Object001
-    4300022: Object002
-    4300024: Box002
+    4300014: Line064
+    4300016: Line078
+    4300018: Object001
+    4300020: Object002
+    4300022: minilandR
+    4300024: minilandR2
+    4300026: minilandR3
+    4300028: minilandR4
+    4300030: minilandR5
   externalObjects: {}
   materials:
     importMaterials: 1

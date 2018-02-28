@@ -30,14 +30,15 @@ public class ShowBridge : MonoBehaviour
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Player") {
-			KeepOnKilling.enabled = true;
+			
 			if (InventoKill.Refrence.KilledEnemies >= enemiesToKill) {
 				//&& InventoKill.Refrence.haveKey
 				//active the bridge
 				//bridge.gameObject.SetActive (true);
 				anim.Play (anim.clip.name);
 				//anim.Stop ();
-
+				KeepOnKilling.enabled = false;
+				Destroy (this.gameObject, 3);
 			} else if (InventoKill.Refrence.KilledEnemies <= enemiesToKill) 
 			{
 				KeepOnKilling.text = "Keep On Killing.";
