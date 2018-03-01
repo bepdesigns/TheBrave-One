@@ -47,7 +47,7 @@ public class EnemyKills : MonoBehaviour
 	IEnumerator DeathWait()
 	{
 		yield return new WaitForSeconds(waitTime);
-		InventoKill.Refrence.KilledEnemies += 1;
+		InventoKill.Refrence.KilledEnemies ++;
 		Destroy(gameObject);
 	}
 }
