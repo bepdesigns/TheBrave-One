@@ -1,19 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Invector.EventSystems;
+using Invector.CharacterController;
 
 public class EnemySpawn : MonoBehaviour {
 
 	public GameObject enemy;
-	public Transform enemyPos;
-	public float repeatRate = 3.0f;
-	public float waitTime = 1.0f;
-	public float timeToDestroy = 11.0f;
+	public Transform[] enemyPos;
+	public float repeatRate = 10.0f;
+	public float waitTime = 8.0f;
+	//public float timeToDestroy = 11.0f;
 
+	public vCharacter chara;
 
 	// Use this for initialization
 	void Start () {
-		
+		chara = FindObjectOfType<vCharacter> ();
 	}
 	
 	// Update is called once per frame
@@ -22,13 +25,22 @@ public class EnemySpawn : MonoBehaviour {
 		if (other.gameObject.tag == "Player") 
 		{
 			InvokeRepeating ("EnemySpawner", waitTime, repeatRate);
-			Destroy (gameObject, timeToDestroy);
+			//Destroy (gameObject, timeToDestroy);
 			gameObject.GetComponent<BoxCollider> ().enabled = false;
 		}
 		
 	}
 	void EnemySpawner()
 	{
-		Instantiate (enemy, enemyPos.position, enemyPos.rotation);
+		// If the player has no health left...
+		if (chara.currentHealth <= 0f)
+		{
+			// ... exit the function.
+			return;
+		}
+
+		// Find a random index between zero and one less than the number of spawn points.
+		int spawnPointIndex = Random.Range (0, enemyPos.Length);
+		Instantiate (enemy, enemyPos[spawnPointIndex].position, enemyPos[spawnPointIndex].rotation);
 	}
 }
