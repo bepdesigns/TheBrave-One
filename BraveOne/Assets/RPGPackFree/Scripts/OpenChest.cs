@@ -48,13 +48,13 @@ public class OpenChest : MonoBehaviour {
 	}
 
     //You probably want to call this somewhere
-    void Close()
+	public void Close()
     {
         closing = true;
         opening = false;
     }
 
-    void Open()
+	public void Open()
     {
         opening = true;
         closing = false;

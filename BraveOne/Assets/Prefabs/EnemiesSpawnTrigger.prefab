@@ -65,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1705838825027372}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.795, y: 0, z: 0}
+  m_LocalPosition: {x: -2.795, y: -0.359, z: 1.272}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4827170720876544}
@@ -78,7 +78,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1950097165409122}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.281, y: 0, z: 1.127}
+  m_LocalPosition: {x: 1.281, y: -0.07, z: 1.127}
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_Children: []
   m_Father: {fileID: 4827170720876544}
@@ -91,7 +91,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1301657341855912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 51.787636, y: 12.91, z: -160.88}
+  m_LocalPosition: {x: -115.76, y: 35, z: 306.46}
   m_LocalScale: {x: 7.334759, y: 7.3347597, z: 7.3347597}
   m_Children:
   - {fileID: 4397822559839954}
@@ -126,6 +126,10 @@ MonoBehaviour:
   enemyPos:
   - {fileID: 4547887891690424}
   - {fileID: 4397822559839954}
-  repeatRate: 20
-  waitTime: 15
+  repeatRate: 40
+  waitTime: 3
+  isDead: 0
+  Timer: 10
+  Cooldown: 5
+  EnemyName: Bamby
   chara: {fileID: 114177915219808448, guid: 98c860d4fa244054dbfce31d3b64b11b, type: 2}
