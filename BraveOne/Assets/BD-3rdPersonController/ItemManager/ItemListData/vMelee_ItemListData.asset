@@ -27,6 +27,7 @@ MonoBehaviour:
   - {fileID: 11411708}
   - {fileID: 114149023813540246}
   - {fileID: 114722433036184126}
+  - {fileID: 114058632127621678}
   inEdition: 0
   itemsHidden: 1
 --- !u!114 &11411124
@@ -332,7 +333,7 @@ MonoBehaviour:
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 2}
   attributes:
   - name: 7
-    value: 50
+    value: 10
     isBool: 0
   isInEquipArea: 0
   displayAttributes: 1
@@ -402,7 +403,7 @@ MonoBehaviour:
   dropObject: {fileID: 0}
   attributes:
   - name: 8
-    value: 20
+    value: 10
     isBool: 0
   isInEquipArea: 0
   displayAttributes: 1
@@ -472,6 +473,37 @@ MonoBehaviour:
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 2}
   attributes:
   - name: 0
+    value: 25
+    isBool: 0
+  isInEquipArea: 0
+  displayAttributes: 1
+  twoHandWeapon: 0
+  EquipID: 0
+  customEquipPoint: defaultPoint
+  equipDelayTime: 0.5
+--- !u!114 &114058632127621678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Stamina Potion
+  m_EditorClassIdentifier: 
+  id: 15
+  description: Increase Stamina
+  type: 0
+  icon: {fileID: 21300000, guid: a7eb39caa37204044ae09aa0c8699270, type: 3}
+  stackable: 1
+  maxStack: 10
+  amount: 0
+  originalObject: {fileID: 1075643427859868, guid: a53504d8d9d7f3f48937ab716018a8d3,
+    type: 2}
+  dropObject: {fileID: 0}
+  attributes:
+  - name: 1
     value: 25
     isBool: 0
   isInEquipArea: 0
