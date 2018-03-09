@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 906
+  controlID: 35
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 907
+  controlID: 36
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 987
     height: 525
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 908
+  controlID: 112
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 338
     height: 525
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 996
+  controlID: 37
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,15 +304,15 @@ MonoBehaviour:
     y: 0
     width: 293
     height: 891
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
   - {fileID: 23}
   - {fileID: 24}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -419,9 +419,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00b0b5ff
-    m_LastClickedID: -4870144
-    m_ExpandedIDs: aa98b5ffae98b5ffb098b5ffe46eb6ffc0dfbcff5af4bcff4a21bdff1635bdffa83fbdffea4ebdffbe96bdff9ebabdff6ac2bdffc0d9bdffe2f9bdff002cbeff2e4fbeffd6a0beffdea0beffe6a0beff72e3befff4efbeff50f9beffd8ead4ffe0ead4ffe8ead4ff201dd5ff8632d5ff48ddd9ff4cddd9ffe01adbff6e0febff70ebffff2eeeffffcaf1ffff9afbffff9efbfffff4ffffff00000000feac0000deb00000d4b300006eb90000b0bb00008cbc000006bd000090bd0000aac2000090c4000098c50000
+    m_SelectedIDs: 8e2d0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 8ed7faff7642fbffc823fdffda23fdffdc23fdff7a35ffff9efbffff00000000ec96000060980000a2cc0100e4cd010016d5010024db010056e30100c4e5010086e901009aeb010020ec0100ce000200320c0200d6110200f01a0200a41c0200fc1d0200e02b0200d62c0200
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,14 +472,14 @@ MonoBehaviour:
     height: 504
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 73867.28798090373
+  lastFramingTime: 17259.86661777827
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -130.97998, y: 31.146172, z: 309.09494}
+    m_Target: {x: -39.8095, y: -1.2892456, z: 28.793621}
     speed: 2
-    m_Value: {x: -130.97998, y: 31.146172, z: 309.09494}
+    m_Value: {x: -39.8095, y: -1.2892456, z: 28.793621}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -503,13 +503,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.19104242, y: 0.77672625, z: -0.27942023, w: -0.531155}
+    m_Target: {x: -0.04035919, y: 0.94594616, z: -0.29449362, w: -0.12973219}
     speed: 2
-    m_Value: {x: -0.19104221, y: 0.7767254, z: -0.27941993, w: -0.5311544}
+    m_Value: {x: -0.040359195, y: 0.9459462, z: -0.29449365, w: -0.1297322}
   m_Size:
-    m_Target: 65.22198
+    m_Target: 11.8755
     speed: 2
-    m_Value: 65.22198
+    m_Value: 11.8755
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -953,19 +953,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/RPGPackFree/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/RPGPackFree/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 1016}
-    m_SelectedIDs: e83c0000
-    m_LastClickedID: 15592
-    m_ExpandedIDs: 00000000d82a0000e82b0000a22c00006c2d0000163c0000923f0000b8450000f64c00003e5700007a590000e05c0000666900001c6a0000b86a00002c6b0000466c00004e6f0000067000009e7300004e7500007476000052780000447e0000e47f00001480000046800000b48e0000749000009e900000462f010000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 1388}
+    m_SelectedIDs: 068f0000
+    m_LastClickedID: 36614
+    m_ExpandedIDs: 00000000d82a0000002b0000e82b0000a22c00006c2d00002e3c0000aa3f00006a410000d0450000184d0000605700009c590000025d0000886900003e6a0000da6a00004e6b0000686c0000706f000028700000c0730000707500009676000074780000667e0000068000003680000068800000b08f0000709100009a910000b2f0000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -993,7 +993,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d82a0000e82b0000a22c00007e3b0000163c0000923f000052410000b84500003e5700007a590000e05c0000666900001c6a00002c6b0000466c00002a6d00004e6f0000067000009e7300004e7500007476000052780000447e0000e47f000046800000b48e000074900000462f010000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000d82a0000e82b0000a22c00006c2d00002e3c0000aa3f0000d0450000184d0000605700009c590000025d0000886900003e6a0000da6a00004e6b0000686c0000706f000028700000c0730000707500009676000074780000667e0000068000003680000068800000b08f0000709100009a910000b2f00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1160,9 +1160,9 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 920
+    x: 989
     y: 92
-    width: 360
+    width: 291
     height: 870
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &24
