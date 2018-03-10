@@ -209,8 +209,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1868991308449026}
   m_LocalRotation: {x: -0, y: 0.92804533, z: -0, w: 0.3724673}
-  m_LocalPosition: {x: -130.35826, y: 31.26, z: 308.96}
-  m_LocalScale: {x: 3.1913688, y: 3.1913702, z: 3.1913702}
+  m_LocalPosition: {x: -130.35826, y: 33.21, z: 308.96}
+  m_LocalScale: {x: 1.6367884, y: 1.6367891, z: 1.6367891}
   m_Children:
   - {fileID: 4426117928761626}
   - {fileID: 4908125782952404}
@@ -1006,7 +1006,7 @@ ParticleSystem:
         m_RotationOrder: 0
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -1047,7 +1047,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -4142,10 +4142,10 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 0.365, y: 0.465, z: 0.26}
+  m_Extents: {x: 0.56, y: 0.465, z: 0.365}
   m_MoveThreshold: 0.1
-  m_Carve: 0
-  m_CarveOnlyStationary: 1
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
 --- !u!222 &222028995178726674

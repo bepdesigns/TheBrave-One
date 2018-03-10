@@ -187,7 +187,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1058478365580276}
   m_LocalRotation: {x: 0, y: -0.86602515, z: 0, w: 0.50000054}
-  m_LocalPosition: {x: -111.54, y: 32.08, z: 313.61}
+  m_LocalPosition: {x: -123.696, y: 33.960003, z: 306.598}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4557333255656982}
@@ -422,7 +422,7 @@ MonoBehaviour:
   disableCollision: 0
   disableGravity: 0
   resetPlayerSettings: 0
-  playAnimation: 
+  playAnimation: Pick_Down
   endExitTimeAnimation: 0.8
   avatarTarget: 0
   matchTargetMask: {x: 0, y: 0, z: 0}

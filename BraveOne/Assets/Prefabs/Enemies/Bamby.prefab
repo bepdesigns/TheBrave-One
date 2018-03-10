@@ -2449,8 +2449,8 @@ MonoBehaviour:
   currentHealthRecoveryDelay: 0
   currentStamina: 0
   currentHealth: 0
-  deathBy: 1
-  removeComponentsAfterDie: 1
+  deathBy: 2
+  removeComponentsAfterDie: 0
   onReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -2501,7 +2501,7 @@ MonoBehaviour:
   fieldOfView: 95
   maxDetectDistance: 5
   minDetectDistance: 2
-  distanceToLostTarget: 5
+  distanceToLostTarget: 20
   chaseStopDistance: 1
   strafeSideways: 1
   strafeBackward: 1
@@ -2518,8 +2518,8 @@ MonoBehaviour:
   maxAttackCount: 3
   randomAttackCount: 1
   chanceToRoll: 0
-  chanceToBlockInStrafe: 0.2
-  chanceToBlockAttack: 0.2
+  chanceToBlockInStrafe: 0.5
+  chanceToBlockAttack: 0.5
   raiseShield: 4
   lowerShield: 2
   distanceToChangeWaypoint: 1

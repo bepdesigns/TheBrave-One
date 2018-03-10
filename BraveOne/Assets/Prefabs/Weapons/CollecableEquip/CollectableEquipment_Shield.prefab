@@ -877,7 +877,7 @@ MonoBehaviour:
   disableCollision: 0
   disableGravity: 0
   resetPlayerSettings: 0
-  playAnimation: 
+  playAnimation: Pick_Down
   endExitTimeAnimation: 0.8
   avatarTarget: 0
   matchTargetMask: {x: 0, y: 0, z: 0}
@@ -1006,10 +1006,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.4
-  m_Height: 1
+  m_Radius: 0.99777377
+  m_Height: 2.482538
   m_Direction: 1
-  m_Center: {x: 0, y: 0.55, z: 0}
+  m_Center: {x: -0.16747539, y: 0.18440883, z: 0.18611182}
 --- !u!222 &222270587571090000
 CanvasRenderer:
   m_ObjectHideFlags: 1
