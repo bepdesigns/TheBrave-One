@@ -1654,8 +1654,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1918238267358848}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -109.2, y: 32.5673, z: 310.82}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
+  m_LocalPosition: {x: -109.2, y: 33.53, z: 310.82}
+  m_LocalScale: {x: 1.8134925, y: 1.8134925, z: 1.8134925}
   m_Children:
   - {fileID: 4220283801655286}
   - {fileID: 4573897950713962}
@@ -2115,13 +2115,13 @@ MonoBehaviour:
   agressiveAtFirstSight: 1
   attackRotationSpeed: 0.5
   firstAttackDelay: 0
-  minTimeToAttack: 4
+  minTimeToAttack: 2
   maxTimeToAttack: 6
-  maxAttackCount: 3
+  maxAttackCount: 4
   randomAttackCount: 1
   chanceToRoll: 0.1
   chanceToBlockInStrafe: 0.1
-  chanceToBlockAttack: 0
+  chanceToBlockAttack: 0.1
   raiseShield: 4
   lowerShield: 2
   distanceToChangeWaypoint: 1
