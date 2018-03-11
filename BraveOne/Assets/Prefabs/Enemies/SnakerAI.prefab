@@ -2937,7 +2937,7 @@ MonoBehaviour:
   openCloseEvents: 0
   openCloseWindow: 1
   selectedToolbar: 0
-  maxHealth: 200
+  maxHealth: 250
   healthRecovery: 0
   maxStamina: 200
   staminaRecovery: 1.2
@@ -2998,7 +2998,7 @@ MonoBehaviour:
   fieldOfView: 95
   maxDetectDistance: 5
   minDetectDistance: 2
-  distanceToLostTarget: 20
+  distanceToLostTarget: 10
   chaseStopDistance: 1
   strafeSideways: 1
   strafeBackward: 1
@@ -3016,7 +3016,7 @@ MonoBehaviour:
   randomAttackCount: 1
   chanceToRoll: 0.1
   chanceToBlockInStrafe: 0.1
-  chanceToBlockAttack: 0
+  chanceToBlockAttack: 0.1
   raiseShield: 4
   lowerShield: 2
   distanceToChangeWaypoint: 1

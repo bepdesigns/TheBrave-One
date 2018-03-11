@@ -69,6 +69,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4239213609694214}
   - component: {fileID: 114786403016716700}
+  - component: {fileID: 114948291817661754}
   m_Layer: 0
   m_Name: SwordWooden
   m_TagString: Weapon
@@ -213,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    damageValue: 10
+    damageValue: 5
     staminaBlockCost: 0
     staminaRecoveryDelay: 0
     ignoreDefense: 0
@@ -250,7 +251,7 @@ MonoBehaviour:
   meleeType: 2
   distanceToAttack: 1
   attackID: 1
-  movesetID: 3
+  movesetID: 1
   staminaCost: 20
   staminaRecoveryDelay: 1
   defenseRate: 100
@@ -263,3 +264,29 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114948291817661754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1755897841820778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00cc2b820c1fe174082aa779f79cb540, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 106114, guid: dfea19d1d34dd174d87195f78cb44ae7, type: 2}
+  hitSounds:
+  - {fileID: 8300000, guid: 5bf68d15022c6834183817afb427ac52, type: 3}
+  - {fileID: 8300000, guid: eb1a767b35496c84db41ea55405f03b3, type: 3}
+  - {fileID: 8300000, guid: 9dd2d71c0c95f9d46aa813a5ea65619d, type: 3}
+  recoilSounds:
+  - {fileID: 8300000, guid: f0dad368bc2d5944ca75a821ad024ce2, type: 3}
+  - {fileID: 8300000, guid: 3bc8b33abc1b51d4badb229b61e36e33, type: 3}
+  - {fileID: 8300000, guid: bfa1063bd08a3d54595a731677875059, type: 3}
+  recoilParticles:
+  - {fileID: 110090, guid: 04dd09560119f3c48ba23669eb660db1, type: 2}
+  defSounds:
+  - {fileID: 8300000, guid: f0dad368bc2d5944ca75a821ad024ce2, type: 3}
+  - {fileID: 8300000, guid: 3bc8b33abc1b51d4badb229b61e36e33, type: 3}
+  - {fileID: 8300000, guid: bfa1063bd08a3d54595a731677875059, type: 3}

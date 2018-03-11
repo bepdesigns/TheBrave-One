@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    damageValue: 40
+    damageValue: 35
     staminaBlockCost: 35
     staminaRecoveryDelay: 0
     ignoreDefense: 0
