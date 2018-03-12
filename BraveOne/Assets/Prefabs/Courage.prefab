@@ -2610,7 +2610,7 @@ MonoBehaviour:
   maxHealth: 100
   healthRecovery: 0
   maxStamina: 200
-  staminaRecovery: 10
+  staminaRecovery: 5
   currentStaminaRecoveryDelay: 0
   healthRecoveryDelay: 0
   currentHealthRecoveryDelay: 0
@@ -3462,8 +3462,8 @@ MonoBehaviour:
   currentExp: 0
   toLevelUp: 0000000001000000020000000300000004000000
   HPLevels: 00000000640000006500000066000000
-  attackLevels: 00000000010000000100000001000000
-  defenceLevels: 00000000640000006500000066000000
+  attackLevels: 00000000050000000a0000000f000000
+  defenceLevels: 00000000050000000a0000000f000000
   currentHP: 100
   currentAttack: 10
   currentDefence: 5
@@ -3763,7 +3763,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
   actionEnter: 0
   actionStay: 0
@@ -3876,10 +3876,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
   tagsToFind:
   - Enemy
+  - Boss
   layerOfObstacles:
     serializedVersion: 2
     m_Bits: 1

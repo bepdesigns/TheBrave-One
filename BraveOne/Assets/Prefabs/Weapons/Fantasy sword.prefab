@@ -243,8 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    damageValue: 35
-    staminaBlockCost: 30
+    damageValue: 20
+    staminaBlockCost: 25
     staminaRecoveryDelay: 0
     ignoreDefense: 0
     activeRagdoll: 0

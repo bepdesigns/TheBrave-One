@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage:
-    damageValue: 15
+    damageValue: 7
     staminaBlockCost: 10
     staminaRecoveryDelay: 0
     ignoreDefense: 0
@@ -234,7 +234,7 @@ MonoBehaviour:
   distanceToAttack: 1
   attackID: 1
   movesetID: 1
-  staminaCost: 30
+  staminaCost: 20
   staminaRecoveryDelay: 1.2
   defenseRate: 100
   defenseRange: 90
