@@ -2413,8 +2413,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.6686325, y: 0.5185394, z: 0.5250244}
-  m_Center: {x: -0.044322968, y: 0.24073029, z: 0.042877197}
+  m_Size: {x: 0.55382407, y: 0.15904108, z: 0.31659442}
+  m_Center: {x: -0.02975146, y: 0.060981113, z: 0.035260517}
 --- !u!65 &65527423149729984
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -2561,7 +2561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 1
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
   maxHealth: 100
   healthRecovery: 0
@@ -2975,7 +2975,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.4
+  m_Radius: 1.5
   m_Center: {x: 0, y: 0.58, z: 0}
 --- !u!135 &135882303743631016
 SphereCollider:

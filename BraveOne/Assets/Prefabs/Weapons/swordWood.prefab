@@ -249,7 +249,7 @@ MonoBehaviour:
   distanceToAttack: 1
   attackID: 1
   movesetID: 1
-  staminaCost: 8
+  staminaCost: 20
   staminaRecoveryDelay: 1
   defenseRate: 100
   defenseRange: 90

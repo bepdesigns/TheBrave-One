@@ -2610,7 +2610,7 @@ MonoBehaviour:
   maxHealth: 100
   healthRecovery: 0
   maxStamina: 200
-  staminaRecovery: 5
+  staminaRecovery: 3
   currentStaminaRecoveryDelay: 0
   healthRecoveryDelay: 0
   currentHealthRecoveryDelay: 0
