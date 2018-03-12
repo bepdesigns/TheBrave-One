@@ -3159,9 +3159,9 @@ MonoBehaviour:
   openCloseEvents: 1
   openCloseWindow: 1
   selectedToolbar: 0
-  maxHealth: 400
+  maxHealth: 500
   healthRecovery: 0
-  maxStamina: 200
+  maxStamina: 300
   staminaRecovery: 1.2
   currentStaminaRecoveryDelay: 0
   healthRecoveryDelay: 0

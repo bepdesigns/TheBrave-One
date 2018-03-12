@@ -3019,16 +3019,16 @@ MonoBehaviour:
   openCloseEvents: 1
   openCloseWindow: 1
   selectedToolbar: 0
-  maxHealth: 700
+  maxHealth: 1000
   healthRecovery: 0
-  maxStamina: 350
+  maxStamina: 500
   staminaRecovery: 1.2
   currentStaminaRecoveryDelay: 0
   healthRecoveryDelay: 0
   currentHealthRecoveryDelay: 0
   currentStamina: 0
   currentHealth: 0
-  deathBy: 0
+  deathBy: 1
   removeComponentsAfterDie: 0
   onReceiveDamage:
     m_PersistentCalls:

@@ -16448,7 +16448,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
@@ -21501,7 +21501,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &524534021
 Transform:
@@ -21526,7 +21526,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
@@ -22800,7 +22800,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
@@ -30998,8 +30998,8 @@ Transform:
   - {fileID: 2087221374}
   - {fileID: 1510721261}
   - {fileID: 1252918031}
-  - {fileID: 1877265134}
   - {fileID: 821607919}
+  - {fileID: 1877265134}
   - {fileID: 1793103091}
   - {fileID: 1046084264}
   - {fileID: 1485856893}
@@ -31007,15 +31007,15 @@ Transform:
   - {fileID: 698968128}
   - {fileID: 1501843083}
   - {fileID: 1800590013}
-  - {fileID: 889338107}
   - {fileID: 939171710}
-  - {fileID: 189849761}
   - {fileID: 1628827363}
+  - {fileID: 189849761}
+  - {fileID: 889338107}
   - {fileID: 512902639}
   - {fileID: 1743002730}
   - {fileID: 25209886}
-  - {fileID: 392274053}
   - {fileID: 656899519}
+  - {fileID: 392274053}
   m_Father: {fileID: 678032606}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -34879,6 +34879,14 @@ Prefab:
     - target: {fileID: 100002, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
       propertyPath: m_Layer
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 88ac460e0403131478c5e7c869f0091b, type: 3}
@@ -57563,6 +57571,18 @@ Prefab:
     - target: {fileID: 400004, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
       propertyPath: m_LocalScale.z
       value: 6.0723963
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
@@ -80427,7 +80447,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: a2108f61d3c2ff94b81b13584ecac64c, type: 3}
@@ -85961,6 +85981,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100034, guid: 7b97968491a252a4987f2c81479666d6, type: 3}
+    - target: {fileID: 100002, guid: 1ec7148d8e74a864e827db0c85f41d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1ec7148d8e74a864e827db0c85f41d94, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ec7148d8e74a864e827db0c85f41d94, type: 3}
   m_IsPrefabParent: 0
@@ -85978,7 +86006,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 1ec7148d8e74a864e827db0c85f41d94, type: 3}

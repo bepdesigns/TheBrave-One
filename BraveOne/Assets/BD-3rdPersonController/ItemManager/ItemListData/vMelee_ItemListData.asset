@@ -625,5 +625,5 @@ MonoBehaviour:
   displayAttributes: 1
   twoHandWeapon: 0
   EquipID: 2
-  customEquipPoint: defaultPoint
+  customEquipPoint: shieldEquipPoint
   equipDelayTime: 0.5
