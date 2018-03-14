@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 8cc5925e70b9b644d8be4ee2a1555c07
+timeCreated: 1520932006
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bone-chest
+    100002: Bone-head
+    100004: Bone-jaw
+    100006: Bone-neck1
+    100008: Bone-neck2
+    100010: Bone-pelvis
+    100012: Bone-right quad
+    100014: Bone-right quad01
+    100016: Bone-right shin
+    100018: Bone-right shin01
+    100020: Bone-tail1
+    100022: Bone-tail2
+    100024: Bone-tail3
+    100026: Bone-tail4
+    100028: Bone-tail5
+    100030: Bone-tail6
+    100032: Bone01
+    100034: Bone02
+    100036: Bone03
+    100038: Bone04
+    100040: Bone05
+    100042: Bone06
+    100044: Bone07
+    100046: Bone08
+    100048: Bone09
+    100050: Bone10
+    100052: Bone11
+    100054: Bone12
+    100056: Bone13
+    100058: Bone14
+    100060: Bone15
+    100062: Bone16
+    100064: Bone17
+    100066: Bone18
+    100068: Bone19
+    100070: Bone20
+    100072: Bone21
+    100074: Bone22
+    100076: Bone23
+    100078: Bone24
+    100080: Bone25
+    100082: Bone26
+    100084: Bone27
+    100086: Bone28
+    100088: Bone29
+    100090: Bone30
+    100092: Bone31
+    100094: Bone32
+    100096: Bone33
+    100098: Bone34
+    100100: Camera01
+    100102: //RootNode
+    100104: Dragon
+    100106: Omni01
+    100108: Plane01
+    100110: Plane02
+    100112: Plane03
+    100114: Plane04
+    100116: Point01
+    100118: Point02
+    100120: Point03
+    100122: Point04
+    100124: QuadPatch01
+    100126: Tube01
+    400000: Bone-chest
+    400002: Bone-head
+    400004: Bone-jaw
+    400006: Bone-neck1
+    400008: Bone-neck2
+    400010: Bone-pelvis
+    400012: Bone-right quad
+    400014: Bone-right quad01
+    400016: Bone-right shin
+    400018: Bone-right shin01
+    400020: Bone-tail1
+    400022: Bone-tail2
+    400024: Bone-tail3
+    400026: Bone-tail4
+    400028: Bone-tail5
+    400030: Bone-tail6
+    400032: Bone01
+    400034: Bone02
+    400036: Bone03
+    400038: Bone04
+    400040: Bone05
+    400042: Bone06
+    400044: Bone07
+    400046: Bone08
+    400048: Bone09
+    400050: Bone10
+    400052: Bone11
+    400054: Bone12
+    400056: Bone13
+    400058: Bone14
+    400060: Bone15
+    400062: Bone16
+    400064: Bone17
+    400066: Bone18
+    400068: Bone19
+    400070: Bone20
+    400072: Bone21
+    400074: Bone22
+    400076: Bone23
+    400078: Bone24
+    400080: Bone25
+    400082: Bone26
+    400084: Bone27
+    400086: Bone28
+    400088: Bone29
+    400090: Bone30
+    400092: Bone31
+    400094: Bone32
+    400096: Bone33
+    400098: Bone34
+    400100: Camera01
+    400102: //RootNode
+    400104: Dragon
+    400106: Omni01
+    400108: Plane01
+    400110: Plane02
+    400112: Plane03
+    400114: Plane04
+    400116: Point01
+    400118: Point02
+    400120: Point03
+    400122: Point04
+    400124: QuadPatch01
+    400126: Tube01
+    2000000: Camera01
+    2100000: Cave Material
+    2100002: 'Material #50'
+    2100004: 'Material #51'
+    2100006: 'Material #52'
+    2300000: Plane01
+    2300002: Plane02
+    2300004: Plane03
+    2300006: Plane04
+    2300008: QuadPatch01
+    2300010: Tube01
+    3300000: Plane01
+    3300002: Plane02
+    3300004: Plane03
+    3300006: Plane04
+    3300008: QuadPatch01
+    3300010: Tube01
+    4300000: Tube01
+    4300002: QuadPatch01
+    4300004: Dragon
+    4300006: Plane01
+    4300008: Plane02
+    4300010: Plane03
+    4300012: Plane04
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: Omni01
+    13700000: Dragon
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

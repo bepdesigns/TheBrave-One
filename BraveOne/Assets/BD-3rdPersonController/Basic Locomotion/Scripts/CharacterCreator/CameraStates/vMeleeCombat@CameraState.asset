@@ -16,10 +16,10 @@ MonoBehaviour:
   - Name: Default
     forward: -1
     right: 0
-    defaultDistance: 4
+    defaultDistance: 2
     maxDistance: 8
     minDistance: 0.6
-    height: 3
+    height: 2
     smoothFollow: 10
     xMouseSensitivity: 3
     yMouseSensitivity: 3
@@ -28,7 +28,7 @@ MonoBehaviour:
     xMinLimit: -360
     xMaxLimit: 360
     rotationOffSet: {x: 8, y: 0, z: 0}
-    cullingHeight: 3.76
+    cullingHeight: 3
     cullingMinDist: 0.01
     fov: 90
     useZoom: 0
@@ -64,10 +64,10 @@ MonoBehaviour:
   - Name: Strafing
     forward: -1
     right: 0.5
-    defaultDistance: 3
+    defaultDistance: 5
     maxDistance: 1.5
     minDistance: 0.25
-    height: 1.3
+    height: 1.59
     smoothFollow: 20
     xMouseSensitivity: 1
     yMouseSensitivity: 1
