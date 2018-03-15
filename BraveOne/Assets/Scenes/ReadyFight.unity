@@ -5490,6 +5490,16 @@ Prefab:
       propertyPath: m_Color.b
       value: 0.107733235
       objectReference: {fileID: 0}
+    - target: {fileID: 224295470810138350, guid: 44765f50758e82545bbc1372982a146a,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 224295470810138350, guid: 44765f50758e82545bbc1372982a146a,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 44765f50758e82545bbc1372982a146a, type: 2}
   m_IsPrefabParent: 0
@@ -5862,8 +5872,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c405689d9720e41b453721891ad95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1221361120}
   lever: {fileID: 534579705}
+  bridge: {fileID: 0}
   enemiesToKill: 5
   KeepOnKilling: {fileID: 1696173951}
 --- !u!23 &105297934
@@ -19055,7 +19065,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1058478365580276, guid: 1621e739c01ece140b56da06fe53e611, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1621e739c01ece140b56da06fe53e611, type: 2}
@@ -25853,7 +25863,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1578935369224094, guid: 4764e211f15124a4c9896de134753cd9, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4764e211f15124a4c9896de134753cd9, type: 2}
@@ -43141,18 +43151,6 @@ Prefab:
       propertyPath: EnemiesKilledText
       value: 
       objectReference: {fileID: 1039779039}
-    - target: {fileID: 4243238200238762, guid: 9f5619ec0093deb46b2819c2330cc9dc, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243238200238762, guid: 9f5619ec0093deb46b2819c2330cc9dc, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4243238200238762, guid: 9f5619ec0093deb46b2819c2330cc9dc, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f5619ec0093deb46b2819c2330cc9dc, type: 2}
   m_IsPrefabParent: 0
@@ -61743,7 +61741,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1075643427859868, guid: a53504d8d9d7f3f48937ab716018a8d3, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a53504d8d9d7f3f48937ab716018a8d3, type: 2}
@@ -74696,8 +74694,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c405689d9720e41b453721891ad95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 1373501470}
   lever: {fileID: 1119143054}
+  bridge: {fileID: 0}
   enemiesToKill: 3
   KeepOnKilling: {fileID: 1696173951}
 --- !u!23 &1823807341
@@ -78106,8 +78104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c405689d9720e41b453721891ad95d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
   lever: {fileID: 1173001892}
+  bridge: {fileID: 0}
   enemiesToKill: 0
   KeepOnKilling: {fileID: 1696173951}
 --- !u!23 &1937802660
@@ -80418,7 +80416,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1687149672428624, guid: e469606d1e4b99b408555add6e9b33a5, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e469606d1e4b99b408555add6e9b33a5, type: 2}

@@ -602,10 +602,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Brave Shield
+  m_Name: Light Shield
   m_EditorClassIdentifier: 
   id: 14
-  description: Item Description
+  description: 'Recoil: Low
+
+    Low Defense'
   type: 1
   icon: {fileID: 21300000, guid: fb7b861ffc4f7734d86247283261f27d, type: 3}
   stackable: 0
@@ -616,14 +618,14 @@ MonoBehaviour:
   dropObject: {fileID: 1073021064873282, guid: 3b64840703667b840a71845d55f100b3, type: 2}
   attributes:
   - name: 4
-    value: 90
+    value: 70
     isBool: 0
   - name: 5
-    value: 90
+    value: 70
     isBool: 0
   isInEquipArea: 0
   displayAttributes: 1
   twoHandWeapon: 0
-  EquipID: 2
+  EquipID: 3
   customEquipPoint: shieldEquipPoint
   equipDelayTime: 0.5

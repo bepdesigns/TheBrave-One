@@ -7,9 +7,9 @@ public class ShowBridge : MonoBehaviour
 
 {
 	[Header("Active the Lever to open  the bridges")]
-	public Animation anim;
+	//public Animation anim;
 	public Animation lever;
-	//public GameObject bridge;
+	public GameObject bridge;
 	public int enemiesToKill;
 	public Text KeepOnKilling;
 	//public Text EnemiesToKill;
@@ -20,9 +20,9 @@ public class ShowBridge : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 
-		//bridge.gameObject.SetActive(false);
-		anim = FindObjectOfType<Animation>();
-		lever = FindObjectOfType<Animation>();
+		bridge.gameObject.SetActive(false);
+		//anim = FindObjectOfType<Animation>();
+		lever = GetComponentInChildren<Animation>();
 		KeepOnKilling.enabled = false;
 		//EnemiesToKill.enabled = false;
 	}
@@ -39,9 +39,9 @@ public class ShowBridge : MonoBehaviour
 			if (InventoKill.Refrence.KilledEnemies >= enemiesToKill && Input.GetKeyDown (KeyCode.E)) {
 				//&& InventoKill.Refrence.haveKey
 				//active the bridge
-				//bridge.gameObject.SetActive (true);
-				lever.Play (anim.clip.name);
-				anim.Play (anim.clip.name);
+				bridge.gameObject.SetActive (true);
+				lever.Play (lever.clip.name);
+				//anim.Play (anim.clip.name);
 				//anim.Stop ();
 				KeepOnKilling.enabled = true;
 				KeepOnKilling.text = "Bridge is Open.";

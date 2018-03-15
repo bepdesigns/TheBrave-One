@@ -66,3 +66,4 @@ C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\Temp\bin\Debug\UnityEdit
 C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\obj\Debug\Assembly-CSharp.dll
 C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\obj\Debug\Assembly-CSharp.pdb
+C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
