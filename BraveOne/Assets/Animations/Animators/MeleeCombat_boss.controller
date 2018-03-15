@@ -11339,7 +11339,7 @@ AnimatorStateTransition:
     m_EventTreshold: 0
   - m_ConditionMode: 4
     m_ConditionEvent: RandomAttack
-    m_EventTreshold: 4
+    m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110203478}
   m_Solo: 0
