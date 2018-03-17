@@ -29,6 +29,7 @@ MonoBehaviour:
   - {fileID: 114722433036184126}
   - {fileID: 114058632127621678}
   - {fileID: 114653701331784562}
+  - {fileID: 114727565183211338}
   inEdition: 0
   itemsHidden: 1
 --- !u!114 &11411124
@@ -628,4 +629,31 @@ MonoBehaviour:
   twoHandWeapon: 0
   EquipID: 3
   customEquipPoint: shieldEquipPoint
+  equipDelayTime: 0.5
+--- !u!114 &114727565183211338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: vKeyCard Black
+  m_EditorClassIdentifier: 
+  id: 17
+  description: Black Keycard to open doors
+  type: 0
+  icon: {fileID: 21300004, guid: 72f7d3138d397a94d82105b26272e764, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 0}
+  dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 2}
+  attributes: []
+  isInEquipArea: 0
+  displayAttributes: 1
+  twoHandWeapon: 0
+  EquipID: 0
+  customEquipPoint: defaultPoint
   equipDelayTime: 0.5
