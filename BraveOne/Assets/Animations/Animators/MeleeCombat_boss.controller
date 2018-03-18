@@ -14786,12 +14786,12 @@ AnimatorStateMachine:
   - first: {fileID: 110712910}
     second:
     - {fileID: 1109988520706627614}
-  - first: {fileID: 110701130}
-    second:
-    - {fileID: 1109075252467089046}
   - first: {fileID: 110779956}
     second:
     - {fileID: 1109695854346236838}
+  - first: {fileID: 110701130}
+    second:
+    - {fileID: 1109075252467089046}
   - first: {fileID: 1107503741397061610}
     second:
     - {fileID: 1109624683684650572}
@@ -16230,8 +16230,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDamage: 0.2
-  endDamage: 0.9
+  startDamage: 0.5
+  endDamage: 0.99
   allowMovementAt: 0.7
   damageMultiplier: 0
   recoilID: 2
@@ -16436,8 +16436,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDamage: 0.2
-  endDamage: 0.9
+  startDamage: 0.24
+  endDamage: 0.96
   allowMovementAt: 0.7
   damageMultiplier: 0
   recoilID: 2
@@ -16620,8 +16620,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDamage: 0.2
-  endDamage: 0.9
+  startDamage: 0.6
+  endDamage: 0.95
   allowMovementAt: 0.7
   damageMultiplier: 0
   recoilID: 2
@@ -16671,8 +16671,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDamage: 0.2
-  endDamage: 0.9
+  startDamage: 0.6
+  endDamage: 0.74
   allowMovementAt: 0.7
   damageMultiplier: 0
   recoilID: 2
