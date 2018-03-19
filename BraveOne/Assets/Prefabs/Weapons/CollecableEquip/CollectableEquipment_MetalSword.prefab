@@ -427,7 +427,7 @@ MonoBehaviour:
   immediate: 0
   itemsFilter: 01000000
   items:
-  - id: 16
+  - id: 18
     amount: 1
     attributes: []
     changeAttributes: 0

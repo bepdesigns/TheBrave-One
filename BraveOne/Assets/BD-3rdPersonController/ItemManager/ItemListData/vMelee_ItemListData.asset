@@ -31,7 +31,7 @@ MonoBehaviour:
   - {fileID: 114653701331784562}
   - {fileID: 114727565183211338}
   - {fileID: 114259080036880296}
-  inEdition: 0
+  inEdition: 1
   itemsHidden: 1
 --- !u!114 &11411124
 MonoBehaviour:
@@ -575,7 +575,7 @@ MonoBehaviour:
   stackable: 0
   maxStack: 1
   amount: 0
-  originalObject: {fileID: 1431175695051840, guid: 105c3560d7339a345919fb43f40dd95f,
+  originalObject: {fileID: 1800112707787652, guid: 81b063f577fbb744dab33c557b477e28,
     type: 2}
   dropObject: {fileID: 1661240982500090, guid: 8fbae3c8327c2fe4cb605ad98d465b45, type: 2}
   attributes:
@@ -617,7 +617,7 @@ MonoBehaviour:
   amount: 0
   originalObject: {fileID: 1755897841820778, guid: 6845eaa48255fc24c9daf171de1c72a7,
     type: 2}
-  dropObject: {fileID: 1073021064873282, guid: 3b64840703667b840a71845d55f100b3, type: 2}
+  dropObject: {fileID: 1661240982500090, guid: d3adab8013af4bf4386d2bce15a3f350, type: 2}
   attributes:
   - name: 2
     value: 10
