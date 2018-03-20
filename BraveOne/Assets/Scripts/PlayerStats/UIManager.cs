@@ -10,17 +10,21 @@ public class UIManager : MonoBehaviour
 	private playerStats thePS;
 	public Text levelText;
 
+	//public GameObject killCount;
+
 	public Text EnemiesKilledText;
 	private InventoKill ItK;
 
-	void Awake()
-	{
-		
-	}
 	// Use this for initialization
 	void Start () 
 	{
-		EnemiesKilledText = GameObject.Find("vUI/HUD/EnemiesKilledText").GetComponent<Text>();
+		//levelText.text = "Lvl: " + thePS.currentLevel;
+		//EnemiesKilledText.text = "EnemiesKilled: " + ItK.KilledEnemies;
+
+		//EnemiesKilledText = GameObject.Find("KillCount/EnemiesKilledText").GetComponent<Text>();
+		//levelText = GameObject.Find("KillCount/LevelUpText").GetComponent<Text>();
+		//killCount = GameObject.Find ("KillCount");
+		//killCount = GameObject.Find("vUI/HUD/KillCount").GetComponent<GameObject>();
 		thePS = GetComponent<playerStats> ();
 		ItK= GetComponent<InventoKill> ();
 	}

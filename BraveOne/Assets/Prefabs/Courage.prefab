@@ -4079,7 +4079,11 @@ MonoBehaviour:
   openCloseEvents: 0
   openCloseWindow: 1
   selectedToolbar: 0
-  holders: []
+  holders:
+  - {fileID: 114774093113733170}
+  - {fileID: 114975447018001642}
+  - {fileID: 114403414872796014}
+  - {fileID: 114285808166304136}
   inEquip: 0
   itemManager: {fileID: 0}
 --- !u!114 &114162529704151542
@@ -4196,13 +4200,15 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1476684245231844}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 27eb7e6101abf453794bfb83dc5778e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelText: {fileID: 0}
-  EnemiesKilledText: {fileID: 0}
+  levelText: {fileID: 114425567475651438, guid: 2177f86e93db6a843a123502d68d0e6b,
+    type: 2}
+  EnemiesKilledText: {fileID: 114940583786196876, guid: 2177f86e93db6a843a123502d68d0e6b,
+    type: 2}
 --- !u!114 &114201526259549986
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5447,7 +5453,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1476684245231844}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88e66c007ee59f647afda1c64001495f, type: 3}
   m_Name: 

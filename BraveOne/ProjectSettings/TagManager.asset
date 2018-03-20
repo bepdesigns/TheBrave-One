@@ -33,6 +33,7 @@ TagManager:
   - ClimbUp
   - StepUp
   - JumpOver
+  - KillCount
   layers:
   - Default
   - TransparentFX
