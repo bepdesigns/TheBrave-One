@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4667678032553506}
   - component: {fileID: 20764576816626772}
   - component: {fileID: 124551728398203350}
-  - component: {fileID: 81687583135050958}
   - component: {fileID: 114032271221550880}
   - component: {fileID: 114410719393901090}
   - component: {fileID: 114490804724344278}
+  - component: {fileID: 81935136512369454}
   m_Layer: 0
   m_Name: vThirdPersonCamera
   m_TagString: MainCamera
@@ -81,7 +81,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &81687583135050958
+--- !u!81 &81935136512369454
 AudioListener:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 1
-  openCloseWindow: 1
+  openCloseWindow: 0
   selectedToolbar: 0
   tagsToFind:
   - Enemy

@@ -5,15 +5,22 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour 
 {
+	public static UIManager Instance;
+
 	private playerStats thePS;
 	public Text levelText;
 
 	public Text EnemiesKilledText;
 	private InventoKill ItK;
 
+	void Awake()
+	{
+		
+	}
 	// Use this for initialization
 	void Start () 
 	{
+		EnemiesKilledText = GameObject.Find("vUI/HUD/EnemiesKilledText").GetComponent<Text>();
 		thePS = GetComponent<playerStats> ();
 		ItK= GetComponent<InventoKill> ();
 	}

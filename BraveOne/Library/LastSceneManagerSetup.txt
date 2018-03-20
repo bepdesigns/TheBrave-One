@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ReadyFight.unity
+- path: Assets/Scenes/City01.unity
   isLoaded: 1
   isActive: 1

@@ -66,3 +66,5 @@ C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\Temp\bin\Debug\UnityEdit
 C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\Temp\bin\Debug\TextMeshPro-2017.3-1.0.56-Editor.dll
+C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne\Temp\bin\Debug\TextMeshPro-2017.3-1.0.56-Runtime.dll
