@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 955888092}
-  m_IndirectSpecularColor: {r: 0.78225076, g: 0.61506695, b: 0.72476786, a: 1}
+  m_IndirectSpecularColor: {r: 0.5649629, g: 0.33104843, b: 0.47649428, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -31716,6 +31716,10 @@ Prefab:
       propertyPath: EnemiesKilledText
       value: 
       objectReference: {fileID: 1286081673}
+    - target: {fileID: 1476684245231844, guid: 9f5619ec0093deb46b2819c2330cc9dc, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9f5619ec0093deb46b2819c2330cc9dc, type: 2}
   m_IsPrefabParent: 0
