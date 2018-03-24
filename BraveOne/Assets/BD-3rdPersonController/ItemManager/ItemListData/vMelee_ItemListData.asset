@@ -34,6 +34,10 @@ MonoBehaviour:
   - {fileID: 114852978056449366}
   - {fileID: 114840670272423220}
   - {fileID: 114200903608196580}
+  - {fileID: 114442034057195140}
+  - {fileID: 114536264454645624}
+  - {fileID: 114603087263911916}
+  - {fileID: 114986172433737652}
   inEdition: 0
   itemsHidden: 1
 --- !u!114 &11411124
@@ -613,7 +617,7 @@ MonoBehaviour:
 
     Made for a Hero'
   type: 1
-  icon: {fileID: 21300000, guid: e30f3134b5a354f4292c55902d9cb940, type: 3}
+  icon: {fileID: 21300000, guid: ba318abbe010a554492f3acf60686184, type: 3}
   stackable: 0
   maxStack: 1
   amount: 0
@@ -622,16 +626,142 @@ MonoBehaviour:
   dropObject: {fileID: 1661240982500090, guid: 8fbae3c8327c2fe4cb605ad98d465b45, type: 2}
   attributes:
   - name: 2
+    value: 6
+    isBool: 0
+  - name: 3
+    value: 12
+    isBool: 0
+  - name: 4
+    value: 60
+    isBool: 0
+  - name: 5
+    value: 65
+    isBool: 0
+  isInEquipArea: 0
+  displayAttributes: 1
+  twoHandWeapon: 0
+  EquipID: 3
+  customEquipPoint: defaultPoint
+  equipDelayTime: 0.5
+--- !u!114 &114442034057195140
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: King Sword
+  m_EditorClassIdentifier: 
+  id: 22
+  description: 'King Sword
+
+    meduim damage'
+  type: 1
+  icon: {fileID: 21300000, guid: 56add699771bcb44e81366536d702dfa, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1265696452547978, guid: 3f72e6eb1ba0a5c488a20aeda512b82b,
+    type: 2}
+  dropObject: {fileID: 1894215013185122, guid: 46482ae1d4c67ce43abefd2a6d425207, type: 2}
+  attributes:
+  - name: 3
+    value: 8
+    isBool: 0
+  - name: 2
+    value: 20
+    isBool: 0
+  - name: 4
+    value: 60
+    isBool: 0
+  - name: 5
+    value: 70
+    isBool: 0
+  isInEquipArea: 0
+  displayAttributes: 1
+  twoHandWeapon: 0
+  EquipID: 3
+  customEquipPoint: defaultPoint
+  equipDelayTime: 0.5
+--- !u!114 &114536264454645624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Hero Sword
+  m_EditorClassIdentifier: 
+  id: 23
+  description: 'Hero Sword
+
+    Meduim Damage'
+  type: 1
+  icon: {fileID: 21300000, guid: 6c960329cd0b32d49b82d522e5777179, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1971962296240502, guid: 4d37b384a512e5140a4e2f12e0c51df1,
+    type: 2}
+  dropObject: {fileID: 1324629526968472, guid: 13cd739e35069964c900f56c45a6e7bd, type: 2}
+  attributes:
+  - name: 2
     value: 10
     isBool: 0
   - name: 3
     value: 25
     isBool: 0
   - name: 4
-    value: 80
+    value: 60
     isBool: 0
   - name: 5
-    value: 80
+    value: 85
+    isBool: 0
+  isInEquipArea: 0
+  displayAttributes: 1
+  twoHandWeapon: 0
+  EquipID: 3
+  customEquipPoint: defaultPoint
+  equipDelayTime: 0.5
+--- !u!114 &114603087263911916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Crystal  Sword
+  m_EditorClassIdentifier: 
+  id: 24
+  description: 'Meduim Hit Damage
+
+    Made With Crystal'
+  type: 1
+  icon: {fileID: 21300000, guid: 25971f99d25cf694b9ff7059b6b30cef, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1130811273863668, guid: 943a55fce435b4949bfb838f7dcc5bc6,
+    type: 2}
+  dropObject: {fileID: 1823870154879692, guid: 12a2a7e9062d15941a1d1f4a322706dd, type: 2}
+  attributes:
+  - name: 2
+    value: 7
+    isBool: 0
+  - name: 3
+    value: 14
+    isBool: 0
+  - name: 4
+    value: 65
+    isBool: 0
+  - name: 5
+    value: 75
     isBool: 0
   isInEquipArea: 0
   displayAttributes: 1
@@ -653,7 +783,7 @@ MonoBehaviour:
   id: 16
   description: made of wooden
   type: 1
-  icon: {fileID: 21300000, guid: 5ea25606a67f52e4c92850b211dcc8c7, type: 3}
+  icon: {fileID: 21300000, guid: 82eb6ba2171f18e408118283febe6581, type: 3}
   stackable: 0
   maxStack: 1
   amount: 0
@@ -662,16 +792,16 @@ MonoBehaviour:
   dropObject: {fileID: 1661240982500090, guid: d3adab8013af4bf4386d2bce15a3f350, type: 2}
   attributes:
   - name: 2
-    value: 10
+    value: 5
     isBool: 0
   - name: 3
-    value: 15
+    value: 10
     isBool: 0
   - name: 5
     value: 60
     isBool: 0
   - name: 4
-    value: 80
+    value: 50
     isBool: 0
   isInEquipArea: 0
   displayAttributes: 1
@@ -695,7 +825,7 @@ MonoBehaviour:
 
     Low Defense'
   type: 1
-  icon: {fileID: 21300000, guid: fb7b861ffc4f7734d86247283261f27d, type: 3}
+  icon: {fileID: 21300000, guid: 844316f96df3514488d81c2f31ce365a, type: 3}
   stackable: 0
   maxStack: 1
   amount: 0
@@ -809,6 +939,46 @@ MonoBehaviour:
     isBool: 0
   - name: 5
     value: 90
+    isBool: 0
+  isInEquipArea: 0
+  displayAttributes: 1
+  twoHandWeapon: 0
+  EquipID: 2
+  customEquipPoint: defaultPoint
+  equipDelayTime: 0.5
+--- !u!114 &114986172433737652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
+  m_Name: Crystal Sword
+  m_EditorClassIdentifier: 
+  id: 25
+  description: 'Made With Crystals
+
+    Melee Shield
+
+    Recoil: Meduim
+
+    Bonus: Break Attack'
+  type: 1
+  icon: {fileID: 21300000, guid: ac107c02324db5044be1d25858f72aff, type: 3}
+  stackable: 0
+  maxStack: 1
+  amount: 0
+  originalObject: {fileID: 1151439749982954, guid: 94f2edc2878441b479b21baf365170de,
+    type: 2}
+  dropObject: {fileID: 1661240982500090, guid: 566fb897f6a3b1e42aea57cb75ce78b7, type: 2}
+  attributes:
+  - name: 4
+    value: 70
+    isBool: 0
+  - name: 5
+    value: 80
     isBool: 0
   isInEquipArea: 0
   displayAttributes: 1

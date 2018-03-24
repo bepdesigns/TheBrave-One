@@ -10,7 +10,7 @@ public class EnemySpawn : MonoBehaviour {
 	public Transform[] enemyPos;
 	public float repeatRate = 10.0f;
 	public float waitTime = 8.0f;
-	//public float timeToDestroy = 11.0f;
+	public float timeToDestroy = 11.0f;
 
 	public bool isDead;
 	public float Timer;
@@ -43,7 +43,7 @@ public class EnemySpawn : MonoBehaviour {
 		{
 			InvokeRepeating ("EnemySpawner", waitTime, repeatRate);
 
-			//Destroy (gameObject, timeToDestroy);
+			Destroy (gameObject, timeToDestroy);
 			gameObject.GetComponent<BoxCollider> ().enabled = false;
 			//EnemySpawner ();
 		}
