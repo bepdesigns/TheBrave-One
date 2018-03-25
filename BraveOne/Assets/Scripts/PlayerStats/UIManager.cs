@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour
 	public static UIManager Instance;
 
 	private playerStats thePS;
-	public Text levelText;
+	private Text levelText;
 
 	//public GameObject killCount;
 
@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
-		levelText.text = "Lvl: " + thePS.currentLevel;
-		EnemiesKilledText.text = "EnemiesKilled: " + ItK.KilledEnemies;
+		//levelText.text = "Lvl: " + thePS.currentLevel;
+		EnemiesKilledText.text = " " + ItK.KilledEnemies;
 	}
 }

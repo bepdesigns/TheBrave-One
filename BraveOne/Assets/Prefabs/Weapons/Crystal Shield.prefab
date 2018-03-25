@@ -84,13 +84,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1243253350980834}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2848.8984, y: 679.5778, z: 679.5778}
   m_Children: []
   m_Father: {fileID: 4675107558252182}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!4 &4640444619507482
 Transform:
   m_ObjectHideFlags: 1
@@ -110,7 +110,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1136996631756540}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -127,7 +127,7 @@ Transform:
   m_GameObject: {fileID: 1151439749982954}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.433, z: -0.386}
-  m_LocalScale: {x: 0.01050148, y: 0.042929366, z: -0.0052576535}
+  m_LocalScale: {x: 0.016203888, y: 0.066240445, z: -0.008112612}
   m_Children:
   - {fileID: 4675107558252182}
   m_Father: {fileID: 0}
@@ -264,7 +264,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   meleeManager: {fileID: 0}
-  meleeType: 1
+  meleeType: 0
   distanceToAttack: 1
   attackID: 0
   movesetID: 0
@@ -272,9 +272,9 @@ MonoBehaviour:
   staminaRecoveryDelay: 0
   defenseRate: 100
   defenseRange: 90
-  defenseID: 0
-  recoilID: 0
-  breakAttack: 0
+  defenseID: 3
+  recoilID: 2
+  breakAttack: 1
   onDefense:
     m_PersistentCalls:
       m_Calls: []

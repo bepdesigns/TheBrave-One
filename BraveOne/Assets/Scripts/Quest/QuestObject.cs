@@ -22,6 +22,9 @@ public class QuestObject : MonoBehaviour {
 	public int enemiesToKill;
 	private int enemyKillCount;
 
+	public GameObject Reward;
+	public Transform Player;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -69,6 +72,8 @@ public class QuestObject : MonoBehaviour {
 		
 		theQM.questCompleted[QuestNumber] = true;
 		gameObject.SetActive (false);
+		// Instantiate the projectile at the position and rotation of this transform
+		Reward = Instantiate(Reward, Player.transform.position, Player.transform.rotation);
 
 	}
 }

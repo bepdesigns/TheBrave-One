@@ -32,13 +32,12 @@ MonoBehaviour:
   - {fileID: 114727565183211338}
   - {fileID: 114259080036880296}
   - {fileID: 114852978056449366}
-  - {fileID: 114840670272423220}
   - {fileID: 114200903608196580}
   - {fileID: 114442034057195140}
   - {fileID: 114536264454645624}
   - {fileID: 114603087263911916}
   - {fileID: 114986172433737652}
-  inEdition: 0
+  inEdition: 1
   itemsHidden: 1
 --- !u!114 &11411124
 MonoBehaviour:
@@ -335,11 +334,12 @@ MonoBehaviour:
   id: 5
   description: Increases the MaxHealth
   type: 0
-  icon: {fileID: 21300000, guid: e60fbeee962473a4bb627f9d7dc341b0, type: 3}
+  icon: {fileID: 21300000, guid: 79fca242eb0c34145b0ca9fbecd72d19, type: 3}
   stackable: 1
   maxStack: 10
   amount: 0
-  originalObject: {fileID: 0}
+  originalObject: {fileID: 1058478365580276, guid: 1621e739c01ece140b56da06fe53e611,
+    type: 2}
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 2}
   attributes:
   - name: 7
@@ -405,11 +405,12 @@ MonoBehaviour:
   id: 4
   description: Increase Stamina
   type: 0
-  icon: {fileID: 21300000, guid: 686309ee74ddecf4881a11c0f29efcc6, type: 3}
+  icon: {fileID: 21300000, guid: 7275be165d36b01448c6e49ca0b3a54a, type: 3}
   stackable: 1
   maxStack: 10
   amount: 0
-  originalObject: {fileID: 0}
+  originalObject: {fileID: 1687149672428624, guid: e469606d1e4b99b408555add6e9b33a5,
+    type: 2}
   dropObject: {fileID: 0}
   attributes:
   - name: 8
@@ -475,11 +476,12 @@ MonoBehaviour:
   id: 2
   description: Recover Health
   type: 0
-  icon: {fileID: 21300000, guid: 862e9f0d31ea667448a05c4d0ec24492, type: 3}
+  icon: {fileID: 21300000, guid: 9a4c361d3dbf9d54495fa3e7d0956f99, type: 3}
   stackable: 1
   maxStack: 10
   amount: 0
-  originalObject: {fileID: 0}
+  originalObject: {fileID: 1578935369224094, guid: 4764e211f15124a4c9896de134753cd9,
+    type: 2}
   dropObject: {fileID: 1000012655258636, guid: cf28841817afdab4c8060f470a322c37, type: 2}
   attributes:
   - name: 0
@@ -505,7 +507,7 @@ MonoBehaviour:
   id: 15
   description: Increase Stamina
   type: 0
-  icon: {fileID: 21300000, guid: a7eb39caa37204044ae09aa0c8699270, type: 3}
+  icon: {fileID: 21300000, guid: 2bde68d578c1f594b968cffe9a6d49ef, type: 3}
   stackable: 1
   maxStack: 10
   amount: 0
@@ -536,7 +538,7 @@ MonoBehaviour:
   id: 13
   description: Item Description
   type: 1
-  icon: {fileID: 21300000, guid: b04ba92069a58a347875abbcc61f05fd, type: 3}
+  icon: {fileID: 21300000, guid: 0f39d2a9738b838458b3604383562060, type: 3}
   stackable: 0
   maxStack: 1
   amount: 0
@@ -610,7 +612,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: MetalSword
+  m_Name: Golden Sword
   m_EditorClassIdentifier: 
   id: 18
   description: 'Strong Sword
@@ -872,43 +874,6 @@ MonoBehaviour:
   EquipID: 0
   customEquipPoint: defaultPoint
   equipDelayTime: 0.5
---- !u!114 &114840670272423220
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Super Shield
-  m_EditorClassIdentifier: 
-  id: 20
-  description: Greatest Shield
-  type: 1
-  icon: {fileID: 21300000, guid: 48f678f879075ac43a59cf2ee5a4274a, type: 3}
-  stackable: 0
-  maxStack: 1
-  amount: 0
-  originalObject: {fileID: 1023235281827616, guid: 90a4b6173e6f2824db01e095d69fe050,
-    type: 2}
-  dropObject: {fileID: 1661240982500090, guid: 566fb897f6a3b1e42aea57cb75ce78b7, type: 2}
-  attributes:
-  - name: 3
-    value: 0
-    isBool: 0
-  - name: 4
-    value: 100
-    isBool: 0
-  - name: 5
-    value: 100
-    isBool: 0
-  isInEquipArea: 0
-  displayAttributes: 1
-  twoHandWeapon: 0
-  EquipID: 2
-  customEquipPoint: defaultPoint
-  equipDelayTime: 0.5
 --- !u!114 &114852978056449366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -955,7 +920,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1adabc1ae49fd3c44a36cc9152ebb0f9, type: 3}
-  m_Name: Crystal Sword
+  m_Name: Crystal Shield
   m_EditorClassIdentifier: 
   id: 25
   description: 'Made With Crystals

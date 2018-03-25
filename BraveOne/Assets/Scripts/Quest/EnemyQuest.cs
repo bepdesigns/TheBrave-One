@@ -33,7 +33,7 @@ public class EnemyQuest : MonoBehaviour
 		{
 			theQM.enemyKilled = enemyQuestName;
 			chara.EnableRagdoll ();
-			thePlayerStats.AddExpreience (expToGive);
+			//thePlayerStats.AddExpreience (expToGive);
 		}
 	}
 

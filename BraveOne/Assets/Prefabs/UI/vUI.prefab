@@ -45,21 +45,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!1 &1131988355676826
+--- !u!1 &1188818316992314
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 224116667055182300}
+  - component: {fileID: 224280437859586012}
+  - component: {fileID: 114850250190761200}
   m_Layer: 5
-  m_Name: KillCount
-  m_TagString: KillCount
+  m_Name: Quest 8
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1195375748794644
 GameObject:
   m_ObjectHideFlags: 1
@@ -77,6 +78,23 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!1 &1245294113450874
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224348682121001048}
+  - component: {fileID: 222078701584754520}
+  - component: {fileID: 114708481927124532}
+  m_Layer: 5
+  m_Name: EnemiesImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!1 &1253299090650658
 GameObject:
@@ -104,6 +122,7 @@ GameObject:
   - component: {fileID: 224020801163450832}
   - component: {fileID: 222081869546324984}
   - component: {fileID: 114916961958129584}
+  - component: {fileID: 114001863083876878}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: Untagged
@@ -206,6 +225,7 @@ GameObject:
   - component: {fileID: 224394599068044546}
   - component: {fileID: 222759498289683874}
   - component: {fileID: 114505870829894100}
+  - component: {fileID: 114701788070921102}
   m_Layer: 5
   m_Name: EnemiesKilledText
   m_TagString: Untagged
@@ -240,6 +260,7 @@ GameObject:
   - component: {fileID: 224544756501557494}
   - component: {fileID: 222836700066301524}
   - component: {fileID: 114217037882769606}
+  - component: {fileID: 114152279204879666}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -296,6 +317,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &1461785316854630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224029283618196034}
+  - component: {fileID: 114049506494420180}
+  m_Layer: 5
+  m_Name: Quest 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1490855585971090
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224505932173793000}
+  - component: {fileID: 114826771774159970}
+  m_Layer: 5
+  m_Name: Quest 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1509514567235276
 GameObject:
   m_ObjectHideFlags: 1
@@ -323,6 +376,7 @@ GameObject:
   - component: {fileID: 224669761881133342}
   - component: {fileID: 222440818548676242}
   - component: {fileID: 114376946094314930}
+  - component: {fileID: 114755783979556324}
   m_Layer: 5
   m_Name: EnemiesToKillText
   m_TagString: Untagged
@@ -340,6 +394,7 @@ GameObject:
   - component: {fileID: 224495680467033970}
   - component: {fileID: 222989287538956638}
   - component: {fileID: 114752927328047402}
+  - component: {fileID: 114341252314415624}
   m_Layer: 5
   m_Name: LeveUpText
   m_TagString: Untagged
@@ -390,7 +445,7 @@ GameObject:
   - component: {fileID: 224728209841525312}
   - component: {fileID: 114578835768653062}
   m_Layer: 5
-  m_Name: Quest 4
+  m_Name: Quest 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -423,6 +478,22 @@ GameObject:
   - component: {fileID: 114021059221331582}
   m_Layer: 5
   m_Name: Quest 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1660908253768862
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224260768803505126}
+  - component: {fileID: 114038104602906608}
+  m_Layer: 5
+  m_Name: Quest 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,6 +583,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!1 &1734630706576386
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224400787750296854}
+  - component: {fileID: 114320733269625246}
+  m_Layer: 5
+  m_Name: Quest 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
 --- !u!1 &1736670091690420
 GameObject:
   m_ObjectHideFlags: 1
@@ -631,6 +718,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+--- !u!114 &114001863083876878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1262422248590104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114004041496255172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -738,6 +839,8 @@ MonoBehaviour:
   isEnemyQuest: 0
   targetEnemy: 
   enemiesToKill: 0
+  Reward: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!114 &114022263657467928
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -762,6 +865,52 @@ MonoBehaviour:
   debugPanel: {fileID: 1410890870629086}
   debugText: {fileID: 0}
   fadeText: {fileID: 114705347060878910}
+--- !u!114 &114038104602906608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660908253768862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca8827f132545879c0c3da3a3c0c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestNumber: 4
+  theQM: {fileID: 114845047686318190}
+  startText: Kill 10 hELLbOYs
+  endText: 'Well Done, You have killed 10 hELLbOY,Pick up your reward '
+  isItemQuest: 0
+  targetItem: 
+  itemsToPickUp: 0
+  isEnemyQuest: 1
+  targetEnemy: hELLbOY
+  enemiesToKill: 10
+  Reward: {fileID: 1058478365580276, guid: 1621e739c01ece140b56da06fe53e611, type: 2}
+  Player: {fileID: 0}
+--- !u!114 &114049506494420180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461785316854630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca8827f132545879c0c3da3a3c0c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestNumber: 6
+  theQM: {fileID: 114845047686318190}
+  startText: Kill 15 hELLbOYs
+  endText: 'Well Done, You have killed 15 hELLbOY, Pick up your reward '
+  isItemQuest: 0
+  targetItem: 
+  itemsToPickUp: 0
+  isEnemyQuest: 1
+  targetEnemy: hELLbOY
+  enemiesToKill: 15
+  Reward: {fileID: 1687149672428624, guid: e469606d1e4b99b408555add6e9b33a5, type: 2}
+  Player: {fileID: 0}
 --- !u!114 &114066251818843498
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -811,6 +960,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
+--- !u!114 &114152279204879666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1388399195405384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114153252217593066
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -825,13 +988,15 @@ MonoBehaviour:
   QuestNumber: 2
   theQM: {fileID: 114845047686318190}
   startText: Go to the Cave!
-  endText: You reach the Cave!
+  endText: You have reach the Cave! Pick up your reward
   isItemQuest: 0
   targetItem: 
   itemsToPickUp: 0
   isEnemyQuest: 0
   targetEnemy: 
   enemiesToKill: 0
+  Reward: {fileID: 1578935369224094, guid: 4764e211f15124a4c9896de134753cd9, type: 2}
+  Player: {fileID: 0}
 --- !u!114 &114167375766314180
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -905,7 +1070,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 12800000, guid: a8f74dbf0f81e504bbbdf3f6063e1047, type: 3}
     m_FontSize: 30
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -929,6 +1094,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
   m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
+--- !u!114 &114320733269625246
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734630706576386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca8827f132545879c0c3da3a3c0c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestNumber: 7
+  theQM: {fileID: 114845047686318190}
+  startText: Kill 20 hELLbOYs
+  endText: 'Well Done, You have killed 20 hELLbOY '
+  isItemQuest: 0
+  targetItem: 
+  itemsToPickUp: 0
+  isEnemyQuest: 1
+  targetEnemy: hELLbOY
+  enemiesToKill: 20
+  Reward: {fileID: 1058478365580276, guid: 1621e739c01ece140b56da06fe53e611, type: 2}
+  Player: {fileID: 0}
+--- !u!114 &114341252314415624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533777131593148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
 --- !u!114 &114376946094314930
 MonoBehaviour:
@@ -1125,12 +1327,12 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
+    m_Font: {fileID: 12800000, guid: 323ac1ea6ff04144f9f5b613bfbc5597, type: 3}
+    m_FontSize: 60
+    m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 1
+    m_MaxSize: 60
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1152,13 +1354,15 @@ MonoBehaviour:
   QuestNumber: 3
   theQM: {fileID: 114845047686318190}
   startText: Find The 8 Crystals
-  endText: You Got the Crystals
+  endText: 'Congratulation!! You got all 8 Crystals, Pick up your reward '
   isItemQuest: 1
   targetItem: Crystal
   itemsToPickUp: 8
   isEnemyQuest: 0
   targetEnemy: 
   enemiesToKill: 0
+  Reward: {fileID: 1047863694172816, guid: 856b20787e9e968408205e77f43d7e57, type: 2}
+  Player: {fileID: 0}
 --- !u!114 &114549284953283206
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1183,16 +1387,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03ca8827f132545879c0c3da3a3c0c34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QuestNumber: 4
+  QuestNumber: 9
   theQM: {fileID: 114845047686318190}
-  startText: Kill 10 Mosters
-  endText: Well Done, You killed those evil Mosters
+  startText: Kill 5 Crimson Rot Monsters
+  endText: Well Done, You killed those evil Mosters, Pick up your reward
   isItemQuest: 0
   targetItem: 
   itemsToPickUp: 0
   isEnemyQuest: 1
-  targetEnemy: hELLbOY
-  enemiesToKill: 10
+  targetEnemy: The Crimson Rot
+  enemiesToKill: 4
+  Reward: {fileID: 1687149672428624, guid: e469606d1e4b99b408555add6e9b33a5, type: 2}
+  Player: {fileID: 0}
 --- !u!114 &114597015691820276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1204,8 +1410,8 @@ MonoBehaviour:
   m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: d38b94569e6ecde4092b59234b4d3abd, type: 2}
-  m_Color: {r: 0.9852941, g: 0.76954865, b: 0.06520329, a: 1}
+  m_Material: {fileID: 2100000, guid: 225843b6084e75440a6ea970a17c93aa, type: 2}
+  m_Color: {r: 1, g: 0.76551723, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1216,10 +1422,10 @@ MonoBehaviour:
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 4
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
-  m_FillOrigin: 0
+  m_FillOrigin: 1
 --- !u!114 &114638249423106794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1334,6 +1540,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!114 &114701788070921102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363525210662754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 4, y: -4}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114705347060878910
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1367,6 +1587,33 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &114708481927124532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245294113450874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 7820689c32b3a4845ae0b5f9395b96a7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
 --- !u!114 &114739191391613292
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1421,6 +1668,8 @@ MonoBehaviour:
   isEnemyQuest: 0
   targetEnemy: 
   enemiesToKill: 0
+  Reward: {fileID: 0}
+  Player: {fileID: 0}
 --- !u!114 &114752927328047402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1443,7 +1692,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
@@ -1454,6 +1703,20 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 
+--- !u!114 &114755783979556324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1516039715131318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!114 &114758270461733352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1568,6 +1831,29 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114826771774159970
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490855585971090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca8827f132545879c0c3da3a3c0c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestNumber: 5
+  theQM: {fileID: 114845047686318190}
+  startText: Kill 3 Crimson Rot Monsters
+  endText: Well Done, You killed those evil Mosters, Pick up your reward
+  isItemQuest: 0
+  targetItem: 
+  itemsToPickUp: 0
+  isEnemyQuest: 1
+  targetEnemy: The Crimson Rot
+  enemiesToKill: 3
+  Reward: {fileID: 1687149672428624, guid: e469606d1e4b99b408555add6e9b33a5, type: 2}
+  Player: {fileID: 0}
 --- !u!114 &114845047686318190
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1584,11 +1870,34 @@ MonoBehaviour:
   - {fileID: 114021059221331582}
   - {fileID: 114153252217593066}
   - {fileID: 114542998116108332}
-  - {fileID: 114578835768653062}
+  - {fileID: 114038104602906608}
   questCompleted: 
   theDM: {fileID: 114471985993432124}
   itemColleted: 
   enemyKilled: 
+--- !u!114 &114850250190761200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188818316992314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03ca8827f132545879c0c3da3a3c0c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuestNumber: 8
+  theQM: {fileID: 114845047686318190}
+  startText: Kill 25 hELLbOYs
+  endText: 'Well Done, You have killed 20 hELLbOY '
+  isItemQuest: 0
+  targetItem: 
+  itemsToPickUp: 0
+  isEnemyQuest: 1
+  targetEnemy: hELLbOY
+  enemiesToKill: 20
+  Reward: {fileID: 1058478365580276, guid: 1621e739c01ece140b56da06fe53e611, type: 2}
+  Player: {fileID: 0}
 --- !u!114 &114853234265098244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1707,6 +2016,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1575423329111034}
+--- !u!222 &222078701584754520
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245294113450874}
 --- !u!222 &222081869546324984
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -1889,6 +2204,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224029283618196034
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461785316854630}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 224504037682527724}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224038204370855742
 RectTransform:
   m_ObjectHideFlags: 1
@@ -1927,26 +2260,6 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 100, y: -250}
   m_SizeDelta: {x: 250, y: 624.1}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!224 &224116667055182300
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1131988355676826}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 224394599068044546}
-  - {fileID: 224495680467033970}
-  m_Father: {fileID: 224795489783091546}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224206364100239480
 RectTransform:
@@ -2024,6 +2337,42 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224260768803505126
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660908253768862}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224504037682527724}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224280437859586012
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188818316992314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 224504037682527724}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224282361632772298
 RectTransform:
   m_ObjectHideFlags: 1
@@ -2094,10 +2443,29 @@ RectTransform:
   m_Father: {fileID: 224727517329568010}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 195, y: 180}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!224 &224348682121001048
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1245294113450874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224394599068044546}
+  m_Father: {fileID: 224795489783091546}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 205.77496, y: 248}
+  m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224358996066928834
 RectTransform:
@@ -2128,14 +2496,32 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224116667055182300}
+  m_Father: {fileID: 224348682121001048}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -350.00006, y: 190.92755}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 95.22502, y: -17.969368}
+  m_SizeDelta: {x: 144.20001, y: 91.5}
+  m_Pivot: {x: 1, y: 1}
+--- !u!224 &224400787750296854
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734630706576386}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 224504037682527724}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224457391031513786
 RectTransform:
   m_ObjectHideFlags: 1
@@ -2182,12 +2568,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 224116667055182300}
-  m_RootOrder: 1
+  m_Father: {fileID: 224795489783091546}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -350.00003, y: 221.52748}
+  m_AnchoredPosition: {x: 0, y: -34.30005}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 1}
 --- !u!224 &224501417752907588
@@ -2222,6 +2608,11 @@ RectTransform:
   - {fileID: 224472159226389158}
   - {fileID: 224952986858566878}
   - {fileID: 224238557676956754}
+  - {fileID: 224260768803505126}
+  - {fileID: 224505932173793000}
+  - {fileID: 224029283618196034}
+  - {fileID: 224400787750296854}
+  - {fileID: 224280437859586012}
   - {fileID: 224728209841525312}
   m_Father: {fileID: 224727517329568010}
   m_RootOrder: 2
@@ -2229,6 +2620,24 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224505932173793000
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1490855585971090}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children: []
+  m_Father: {fileID: 224504037682527724}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224544756501557494
@@ -2264,7 +2673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 50, y: 3}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224669761881133342
@@ -2351,14 +2760,14 @@ RectTransform:
   m_GameObject: {fileID: 1590356089647696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Children: []
   m_Father: {fileID: 224504037682527724}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000015258789, y: 0.000015258789}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224764801946286738
@@ -2417,7 +2826,8 @@ RectTransform:
   - {fileID: 224704962047154090}
   - {fileID: 224501417752907588}
   - {fileID: 224669761881133342}
-  - {fileID: 224116667055182300}
+  - {fileID: 224348682121001048}
+  - {fileID: 224495680467033970}
   m_Father: {fileID: 224727517329568010}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

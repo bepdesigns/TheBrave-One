@@ -16345,12 +16345,12 @@ MonoBehaviour:
   endDamage: 0.45
   allowMovementAt: 0.01
   damageMultiplier: 0
-  recoilID: 0
+  recoilID: 2
   reactionID: 1
   meleeAttackType: 0
   attackName: 
   bodyParts:
-  - RightLowerLeg
+  - LeftLowerLeg
   ignoreDefense: 0
   activeRagdoll: 0
   resetAttackTrigger: 1
@@ -20327,7 +20327,10 @@ AnimatorStateTransition:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: WeakAttack
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102149095603117548}
   m_Solo: 0
@@ -22203,7 +22206,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: ce8a7098226991b4089e60f8da0ac630, type: 3}
-  m_Tag: 
+  m_Tag: Attack
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
