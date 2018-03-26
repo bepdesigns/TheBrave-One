@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 891
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 707, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 16216
+  controlID: 8302
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 918
     height: 891
-  m_MinSize: {x: 436, y: 492}
-  m_MaxSize: {x: 14006, y: 14042}
+  m_MinSize: {x: 432, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 16217
+  controlID: 8303
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 918
     height: 533
-  m_MinSize: {x: 406, y: 221}
-  m_MaxSize: {x: 8006, y: 4021}
+  m_MinSize: {x: 404, y: 221}
+  m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 16218
+  controlID: 8304
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,8 +201,8 @@ MonoBehaviour:
     y: 0
     width: 603
     height: 533
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -230,10 +230,10 @@ MonoBehaviour:
     y: 533
     width: 918
     height: 358
-  m_MinSize: {x: 436, y: 271}
-  m_MaxSize: {x: 14006, y: 10021}
+  m_MinSize: {x: 432, y: 271}
+  m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 16494
+  controlID: 8421
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,8 +278,8 @@ MonoBehaviour:
     y: 0
     width: 396
     height: 358
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -303,15 +303,15 @@ MonoBehaviour:
     y: 0
     width: 362
     height: 891
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 23}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -418,23 +418,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e0a0a9ff
-    m_LastClickedID: -5660448
-    m_ExpandedIDs: 8c34b1ffda6eb1ff301fb2ffd01fb2ffdc20b2ffea20b2ffa422b2fffc43b6ff8c5eb6ff16fdc3ff1efdc3ff26fdc3ff2cfdc3ff32fdc3ff84fdc3ff849bc4ff5cc9c4ff6c9df5ffaabdf6fffee6f6ff00e7f6ff02fdf6ff04fdf6ffeeedf7ff94c9ffff6edbffff72dbffffd4dbffff00dcffff76dcffff34ddffff76eaffffa6eaffffaaeaffffe8eaffff4cf3ffff1af5ffff5af5ffff9cfbffff00000000ca8a0000568c0000e28c00002c8d0000468f0000c4900000
+    m_SelectedIDs: d2380700
+    m_LastClickedID: 473298
+    m_ExpandedIDs: 18c5e4ffa46df3ffb66df3ffc66df3ff007af3ff107af3ffa4f8f3ffb6f8f3ffd2f8f3ffe2f8f3ff1a0af4ff320af4ff769ff4ff9c98f7ffc699f7ff129bf7ffb89bf7ffd49bf7ff7a51f8ff2454f8ffde54f8ff8856f8ffdc77faffa65dfcffc2e7ffff9cfbffff0000000042a600000cb40000fcb80000d0bf0000b6c200009203070096030700340d0700400f070030130700282a0700182f0700
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Fence2
+      m_OriginalName: Fence2
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 466556
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -471,14 +471,14 @@ MonoBehaviour:
     height: 512
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 34234.15547534017
+  lastFramingTime: 79817.7938320379
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -80.69875, y: 6.1129813, z: 69.75654}
+    m_Target: {x: -74.966255, y: -34.675934, z: 6.619568}
     speed: 2
-    m_Value: {x: -80.69875, y: 6.1129813, z: 69.75654}
+    m_Value: {x: -74.966255, y: -34.675934, z: 6.619568}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -502,13 +502,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.14275791, y: -0.72168356, z: 0.1563186, w: -0.65906835}
+    m_Target: {x: 0.4360031, y: -0.12988067, z: 0.06375338, w: 0.88824385}
     speed: 2
-    m_Value: {x: -0.14275694, y: -0.7216787, z: 0.15631755, w: -0.6590639}
+    m_Value: {x: 0.43600106, y: -0.12988006, z: 0.06375308, w: 0.88823974}
   m_Size:
-    m_Target: 6.422257
+    m_Target: 290.67126
     speed: 2
-    m_Value: 6.422257
+    m_Value: 290.67126
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2295,19 +2295,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Weapons/CollecableEquip
+    - Assets/LowPolyNature/Meshes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Weapons/CollecableEquip
+  - Assets/LowPolyNature/Meshes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 768}
-    m_SelectedIDs: 8c5d0000
-    m_LastClickedID: 23948
-    m_ExpandedIDs: 000000002a2f00005a2f00004e3000007e3300003a340000783800008c3800005e390000e83a0000f23d0000fe3f000010410000ee4100003e4400005e4500002c4b0000b0540000465500006e5700000a580000b0590000ee60000098610000fe6100007263000082630000d464000062650000c46900009c6a00008e6e0000c8710000d4710000147400006a740000787500003876000036770000ea7700005c7900002a7b00003e84000086840000b08400005a86000024870000a6f40000a8f40000aaf40000acf40000aef40000b0f40000b2f40000b4f40000b6f40000b8f40000baf40000bcf40000bef40000c0f40000c2f40000c4f40000c6f40000c8f40000caf40000ccf4000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 728}
+    m_SelectedIDs: d2720000
+    m_LastClickedID: 29394
+    m_ExpandedIDs: 000000002e2f00005e2f000052300000803300003c340000bc380000d0380000b43900003e3b00004e3e000058400000584100003642000086440000a6450000624b0000f054000086550000ae57000038580000de59000034610000de61000044620000b8630000c86300001a650000a86500000e6a0000e66a0000d86e0000127200001e7200005e740000b4740000c275000084760000827700003a7800009a790000667b00006c840000b4840000de840000768600008686000054870000222a0100242a0100262a0100282a01002a2a01002c2a01002e2a0100302a0100322a0100342a0100362a0100382a01003a2a01003c2a01003e2a0100402a0100422a0100442a0100462a0100482a010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2335,7 +2335,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a2f00004e3000007e3300003a340000783800008c380000e83a0000f23d00003c3e0000fe3f000010410000ee4100003e4400002c4b0000b0540000465500006e5700000a580000b0590000ee600000fe6100007263000082630000d464000062650000c46900009c6a00008e6e0000c8710000d4710000147400006a74000078750000387600009a76000036770000ea7700005c7900002a7b00003e840000868400005a86000024870000a6f40000a8f40000aaf40000acf40000aef40000b0f40000b2f40000b4f40000b6f40000b8f40000baf40000bcf40000bef40000c0f40000c2f40000c4f40000c6f40000c8f40000caf40000ccf4000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000002e2f00005e2f000052300000803300003c340000bc380000d0380000b43900003e3b00004e3e000058400000584100003642000086440000a6450000624b0000f054000086550000ae57000038580000de59000034610000de61000044620000b8630000c86300001a650000a86500000e6a0000e66a0000d86e0000127200001e7200005e740000b4740000c275000084760000827700003a7800009a790000667b00006c840000b4840000de8400008686000054870000222a0100242a0100262a0100282a01002a2a01002c2a01002e2a0100302a0100322a0100342a0100362a0100382a01003a2a01003c2a01003e2a0100402a0100422a0100442a0100462a0100482a010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2387,7 +2387,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 356}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 271
 --- !u!114 &20
