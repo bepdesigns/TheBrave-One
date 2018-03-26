@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class QuestObject : MonoBehaviour {
 
@@ -16,6 +17,8 @@ public class QuestObject : MonoBehaviour {
 	public int itemsToPickUp;
 
 	private int itemsCount;
+
+	public Text itemCountText;
 
 	public bool isEnemyQuest;
 	public string targetEnemy;
@@ -40,10 +43,12 @@ public class QuestObject : MonoBehaviour {
 				theQM.itemColleted = null;
 				//EndQuest ();
 				itemsCount++;
+				itemCountText.text = "QuestItems " + itemsCount;
 			}
 			if (itemsCount >= itemsToPickUp) 
 			{
 				EndQuest ();
+				itemCountText.enabled = false;
 			}
 		}
 		if (isEnemyQuest) 
@@ -53,10 +58,12 @@ public class QuestObject : MonoBehaviour {
 				theQM.enemyKilled = null;
 
 				enemyKillCount++;
+				itemCountText.text = "EnemyQuest " + enemyKillCount++;
 			}
 			if (enemyKillCount >= enemiesToKill) 
 			{
 				EndQuest ();
+				itemCountText.enabled = false;
 			}
 		}
 	}
