@@ -19,6 +19,8 @@ public class QuestObject : MonoBehaviour {
 	private int itemsCount;
 
 	public Text itemCountText;
+	public Image crystal;
+	public Image killQuests;
 
 	public bool isEnemyQuest;
 	public string targetEnemy;
@@ -28,9 +30,12 @@ public class QuestObject : MonoBehaviour {
 	public GameObject Reward;
 	public Transform Player;
 
+	public bool textOnQuest;
+	private float waitTime = 2f;
+
 	// Use this for initialization
 	void Start () {
-		
+		textOnQuest = false;
 	}
 	
 	// Update is called once per frame
@@ -43,7 +48,15 @@ public class QuestObject : MonoBehaviour {
 				theQM.itemColleted = null;
 				//EndQuest ();
 				itemsCount++;
-				itemCountText.text = "QuestItems " + itemsCount;
+				textOnQuest = true;
+
+				if (textOnQuest) 
+				{
+					crystal.enabled = true;
+					itemCountText.text = " " + itemsCount;
+					StartCoroutine(TextWait());
+				} 
+
 			}
 			if (itemsCount >= itemsToPickUp) 
 			{
@@ -58,7 +71,14 @@ public class QuestObject : MonoBehaviour {
 				theQM.enemyKilled = null;
 
 				enemyKillCount++;
-				itemCountText.text = "EnemyQuest " + enemyKillCount++;
+
+				if (textOnQuest) 
+				{
+					killQuests.enabled = true;
+					itemCountText.text = " " + enemyKillCount++;
+					StartCoroutine(TextWait());
+				}
+
 			}
 			if (enemyKillCount >= enemiesToKill) 
 			{
@@ -81,6 +101,15 @@ public class QuestObject : MonoBehaviour {
 		gameObject.SetActive (false);
 		// Instantiate the projectile at the position and rotation of this transform
 		Reward = Instantiate(Reward, Player.transform.position, Player.transform.rotation);
+
+	}
+
+	IEnumerator TextWait()
+	{
+		yield return new WaitForSeconds(waitTime);
+		itemCountText.enabled = false;
+		crystal.enabled = false;
+		killQuests.enabled = false;
 
 	}
 }

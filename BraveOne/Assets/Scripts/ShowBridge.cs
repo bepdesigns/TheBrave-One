@@ -46,6 +46,7 @@ public class ShowBridge : MonoBehaviour
 				KeepOnKilling.enabled = true;
 				KeepOnKilling.text = "Bridge is Open.";
 				StartCoroutine(TextWait());
+				InventoKill.Refrence.KilledEnemies = 0;
 				//Destroy (this.gameObject, 1);
 			} else if (InventoKill.Refrence.KilledEnemies <= enemiesToKill && Input.GetKeyDown (KeyCode.E)) 
 			{
