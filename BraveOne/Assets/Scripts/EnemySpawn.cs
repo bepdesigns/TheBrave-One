@@ -48,7 +48,7 @@ public class EnemySpawn : MonoBehaviour {
 
 			if(isDead == true)
 				{
-					EnemySpawner ();
+				Respawner();
 				}
 		}
 		

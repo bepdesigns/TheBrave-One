@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 891
-  m_MinSize: {x: 707, y: 492}
-  m_MaxSize: {x: 18002, y: 14042}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 150
+  controlID: 167
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 68
+  controlID: 12
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 918
     height: 533
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 69
+  controlID: 13
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -176,8 +176,8 @@ MonoBehaviour:
     y: 0
     width: 315
     height: 533
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_MinSize: {x: 432, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 129
+  controlID: 146
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -304,8 +304,8 @@ MonoBehaviour:
     y: 0
     width: 362
     height: 891
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -421,7 +421,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: cedfffff
     m_LastClickedID: -8242
-    m_ExpandedIDs: 8afaffff0cfbffff9cfbffff00000000
+    m_ExpandedIDs: 9cfbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,14 +472,14 @@ MonoBehaviour:
     height: 512
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
-  lastFramingTime: 19689.465744009478
+  lastFramingTime: 56.89555034151868
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.4546533, y: 19.598467, z: 33.860806}
+    m_Target: {x: 12.004783, y: 19.889704, z: 33.612865}
     speed: 2
-    m_Value: {x: 6.4546533, y: 19.598467, z: 33.860806}
+    m_Value: {x: 12.004783, y: 19.889704, z: 33.612865}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -503,13 +503,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.167434, y: 0.0310396, z: -0.0052820817, w: 0.9853919}
+    m_Target: {x: 0.14918467, y: -0.8228848, z: 0.2521201, w: 0.48689038}
     speed: 2
-    m_Value: {x: 0.16743211, y: 0.031039247, z: -0.005282022, w: 0.98538077}
+    m_Value: {x: 0.14918302, y: -0.8228757, z: 0.2521173, w: 0.48688498}
   m_Size:
-    m_Target: 27.24124
+    m_Target: 39.46074
     speed: 2
-    m_Value: 27.24124
+    m_Value: 39.46074
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2313,19 +2313,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs/Enemies
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Enemies
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lenovo\Documents\MyGames\TheBrave One\BraveOne
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 436}
-    m_SelectedIDs: fc4d0000
-    m_LastClickedID: 19964
-    m_ExpandedIDs: 00000000302f00005430000030320000823300003e340000d8380000ec380000d03900005a3b00006a3e000076400000764100002442000054420000a4440000824b000012550000a8550000d05700005a580000005a0000045c00005e6100006e620000e2630000f263000044650000d2650000506a0000286b00001a6f0000047000005672000062720000a2740000f874000006760000c8760000c67700007e780000de790000aa7b0000c484000036850000ec850000de860000ac8700002e59010030590100325901003459010036590100385901003a5901003c5901003e59010040590100425901004459010046590100485901004a5901004c5901004e59010050590100525901005459010000ca9a3bffffff7f
+    m_SelectedIDs: f8370000
+    m_LastClickedID: 14328
+    m_ExpandedIDs: 00000000302f00005430000030320000823300003e340000d8380000ec380000d03900005a3b00006a3e000076400000764100002442000054420000a4440000824b000012550000a8550000d05700005a580000005a0000045c00006861000078620000ec630000fc6300004e650000dc6500005a6a0000326b0000246f00000e700000607200006c720000ac7400000275000010760000d2760000d077000088780000f2790000be7b0000d88400004a85000000860000f2860000c08700000a5601000c5601000e56010010560100125601001456010016560100185601001a5601001c5601001e56010020560100225601002456010026560100285601002a5601002c5601002e5601003056010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2353,7 +2353,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000302f00005430000030320000823300003e340000d8380000ec380000d03900005a3b00006a3e000076400000764100002442000054420000a4440000824b000012550000a8550000d05700005a580000005a0000045c00005e6100006e620000e2630000f263000044650000d2650000506a0000286b00001a6f0000047000005672000062720000a2740000f874000006760000c8760000c67700007e780000de790000aa7b0000c484000036850000ec850000de860000ac8700002e59010030590100325901003459010036590100385901003a5901003c5901003e59010040590100425901004459010046590100485901004a5901004c5901004e590100505901005259010054590100
+    m_ExpandedIDs: 00000000302f00005430000030320000823300003e340000d8380000ec380000d03900005a3b00006a3e000076400000764100002442000054420000a4440000824b000012550000a8550000d05700005a580000005a0000045c00006861000078620000ec630000fc6300004e650000dc6500005a6a0000326b0000246f00000e700000607200006c720000ac7400000275000010760000d2760000d077000088780000f2790000be7b0000d88400004a85000000860000f2860000c08700000a5601000c5601000e56010010560100125601001456010016560100185601001a5601001c5601001e56010020560100225601002456010026560100285601002a5601002c5601002e56010030560100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2405,7 +2405,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 186}
+    m_ScrollPosition: {x: 0, y: 279}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 271
 --- !u!114 &20
