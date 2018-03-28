@@ -17407,7 +17407,7 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   groundLayer:
     serializedVersion: 2
-    m_Bits: 131073
+    m_Bits: 131072
   groundCheckDistance: 0.5
   autoCrouchLayer:
     serializedVersion: 2
