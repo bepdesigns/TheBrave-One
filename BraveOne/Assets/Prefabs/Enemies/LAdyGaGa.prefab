@@ -2247,7 +2247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openCloseEvents: 0
-  openCloseWindow: 0
+  openCloseWindow: 1
   selectedToolbar: 0
   Members:
   - transform: {fileID: 4082214654589322}
@@ -2267,7 +2267,7 @@ MonoBehaviour:
     attackObject: {fileID: 114051658529031234}
     isHuman: 1
   defaultDamage:
-    damageValue: 10
+    damageValue: 5
     staminaBlockCost: 5
     staminaRecoveryDelay: 1
     ignoreDefense: 0
@@ -2806,7 +2806,7 @@ MonoBehaviour:
   openCloseEvents: 0
   openCloseWindow: 1
   selectedToolbar: 0
-  maxHealth: 60
+  maxHealth: 40
   healthRecovery: 0
   maxStamina: 200
   staminaRecovery: 1.2
@@ -2890,8 +2890,8 @@ MonoBehaviour:
   agressiveAtFirstSight: 1
   attackRotationSpeed: 0.5
   firstAttackDelay: 0
-  minTimeToAttack: 3
-  maxTimeToAttack: 6
+  minTimeToAttack: 4
+  maxTimeToAttack: 8
   maxAttackCount: 3
   randomAttackCount: 1
   chanceToRoll: 0.01
