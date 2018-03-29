@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/The Adventure of Courage The Game.unity
+- path: Assets/Scenes/The Adventure of Courage.unity
   isLoaded: 1
   isActive: 1

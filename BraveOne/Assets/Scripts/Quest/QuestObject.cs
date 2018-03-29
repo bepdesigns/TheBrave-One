@@ -53,6 +53,7 @@ public class QuestObject : MonoBehaviour {
 				if (textOnQuest) 
 				{
 					crystal.enabled = true;
+					itemCountText.enabled = true;
 					itemCountText.text = " " + itemsCount;
 					StartCoroutine(TextWait());
 				} 
@@ -75,6 +76,7 @@ public class QuestObject : MonoBehaviour {
 				if (textOnQuest) 
 				{
 					killQuests.enabled = true;
+					itemCountText.enabled = true;
 					itemCountText.text = " " + enemyKillCount++;
 					StartCoroutine(TextWait());
 				}
