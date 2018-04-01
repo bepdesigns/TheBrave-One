@@ -8,11 +8,13 @@ public class EnemyQuest : MonoBehaviour
 {
 	private vCharacter chara;
 	private QuestManager theQM;
-	private playerStats thePlayerStats;
+	//private playerStats thePlayerStats;
 
 	//public int damageToGive;
 	public string enemyQuestName;
-	public int expToGive;
+	//public int expToGive;
+
+	//public  int questNumber;
 
 	//public GameObject damageNumber;
 	//public Transform hitPoint;
@@ -23,18 +25,20 @@ public class EnemyQuest : MonoBehaviour
 	{
 		chara = GetComponent<vCharacter> ();
 		theQM = FindObjectOfType<QuestManager> ();
-		thePlayerStats = FindObjectOfType<playerStats> ();
+		//thePlayerStats = FindObjectOfType<playerStats> ();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if (chara.currentHealth <= 0) 
-		{
-			theQM.enemyKilled = enemyQuestName;
-			chara.EnableRagdoll ();
-			//thePlayerStats.AddExpreience (expToGive);
-		}
+		if (chara.currentHealth <= 0) {
+				//if (!theQM.questCompleted [questNumber] && theQM.quests [questNumber].gameObject.activeSelf) {
+					theQM.enemyKilled = enemyQuestName;
+					chara.EnableRagdoll ();
+				//}
+
+				//thePlayerStats.AddExpreience (expToGive);
+			}
 	}
 
 //	void OnTriggerEnter(Collider other)

@@ -31,11 +31,14 @@ public class QuestObject : MonoBehaviour {
 	public Transform Player;
 
 	public bool textOnQuest;
-	private float waitTime = 2f;
+	private float waitTime = 3f;
+
+	public GameObject heLLboY;
 
 	// Use this for initialization
 	void Start () {
 		textOnQuest = false;
+		heLLboY.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -67,41 +70,53 @@ public class QuestObject : MonoBehaviour {
 		}
 		if (isEnemyQuest) 
 		{
+			
+			heLLboY.SetActive (true);
 			if (theQM.enemyKilled == targetEnemy) 
 			{
 				theQM.enemyKilled = null;
 
+
 				enemyKillCount++;
+				textOnQuest = false;
 
 				if (textOnQuest) 
 				{
 					killQuests.enabled = true;
 					itemCountText.enabled = true;
 					itemCountText.text = " " + enemyKillCount++;
-					StartCoroutine(TextWait());
-				}
+					StartCoroutine(TextWaitTwo());
 
+				}
 			}
 			if (enemyKillCount >= enemiesToKill) 
 			{
+				
 				EndQuest ();
-				itemCountText.enabled = false;
+
 			}
+
 		}
 	}
 
 	public void StartQuest()
 	{
 		theQM.ShowQuestText (startText);
+
 	}
 
 	public void EndQuest()
 	{
-		theQM.ShowQuestText (endText);
 		
+		//StartCoroutine(TextWaitTwo());
+		theQM.ShowQuestText (endText);
+		//killQuests.enabled = false;
+
 		theQM.questCompleted[QuestNumber] = true;
 		gameObject.SetActive (false);
+
 		// Instantiate the projectile at the position and rotation of this transform
+
 		Reward = Instantiate(Reward, Player.transform.position, Player.transform.rotation);
 
 	}
@@ -111,6 +126,12 @@ public class QuestObject : MonoBehaviour {
 		yield return new WaitForSeconds(waitTime);
 		itemCountText.enabled = false;
 		crystal.enabled = false;
+
+	}
+	IEnumerator TextWaitTwo()
+	{
+		yield return new WaitForSeconds(waitTime);
+		itemCountText.enabled = false;
 		killQuests.enabled = false;
 
 	}

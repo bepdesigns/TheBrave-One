@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 33434082293163286}
   - component: {fileID: 23821723473405544}
   - component: {fileID: 64898407057397548}
+  - component: {fileID: 208735893282440186}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -209,14 +210,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1077220637240328}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -92.18, y: 58.97, z: 171.51}
-  m_LocalScale: {x: 75.56356, y: 75.56363, z: 75.56363}
+  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5, w: 0.5}
+  m_LocalPosition: {x: 0.3245, y: 0.2266, z: 0.6215}
+  m_LocalScale: {x: 0.5612467, y: 0.5612468, z: 0.56124675}
   m_Children:
   - {fileID: 4843024240793622}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -90}
 --- !u!4 &4627369248151108
 Transform:
   m_ObjectHideFlags: 1
@@ -376,12 +377,12 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 03a1e9b52bebed34199fba10493a7637, type: 3}
-  - {fileID: 2100002, guid: 03a1e9b52bebed34199fba10493a7637, type: 3}
-  - {fileID: 2100004, guid: 03a1e9b52bebed34199fba10493a7637, type: 3}
-  - {fileID: 2100006, guid: 03a1e9b52bebed34199fba10493a7637, type: 3}
-  - {fileID: 2100008, guid: 03a1e9b52bebed34199fba10493a7637, type: 3}
-  - {fileID: 2100010, guid: 03a1e9b52bebed34199fba10493a7637, type: 3}
+  - {fileID: 2100000, guid: 7ff9e628910e7ad4ba8e3e75bda23032, type: 2}
+  - {fileID: 2100000, guid: 7ff9e628910e7ad4ba8e3e75bda23032, type: 2}
+  - {fileID: 2100000, guid: 3625b2c267a7eb54e9f58f4e842e9110, type: 2}
+  - {fileID: 2100000, guid: 679103a23917ce44bafd5448744326a5, type: 2}
+  - {fileID: 2100000, guid: 69669956a41ae004093d1592776bb82d, type: 2}
+  - {fileID: 2100000, guid: f9580598d8e4c894d9dddce7b8e8e28f, type: 2}
   - {fileID: 2100000, guid: a5f9f2b882f176143b2fa5917f878bb5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -610,4 +611,19 @@ NavMeshObstacle:
   m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.16, y: 0.28, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!208 &208735893282440186
+NavMeshObstacle:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1077220637240328}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.101, y: 0.081, z: 0.079}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5

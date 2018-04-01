@@ -250,7 +250,7 @@ MonoBehaviour:
   meleeManager: {fileID: 0}
   meleeType: 2
   distanceToAttack: 1
-  attackID: 3
+  attackID: 1
   movesetID: 1
   staminaCost: 20
   staminaRecoveryDelay: 1

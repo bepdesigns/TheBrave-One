@@ -34,6 +34,7 @@ TagManager:
   - StepUp
   - JumpOver
   - KillCount
+  - BoY
   layers:
   - Default
   - TransparentFX
