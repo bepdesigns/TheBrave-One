@@ -109,3 +109,55 @@ MonoBehaviour:
       eulerAngle: {x: 358.52017, y: 0.6535969, z: 0.0000026122177}
       freeRotation: 1
     cameraMode: 2
+  - Name: City01
+    forward: 1
+    right: 0
+    defaultDistance: 1.5
+    maxDistance: 3
+    minDistance: 0.5
+    height: 0
+    smoothFollow: 10
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 0, y: 0, z: 0}
+    cullingHeight: 0.2
+    cullingMinDist: 0.1
+    fov: 60
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_01
+      positionPoint: {x: 40.02, y: 6.6, z: 55.95}
+      eulerAngle: {x: -0, y: 265.60806, z: 0}
+      freeRotation: 1
+    cameraMode: 2
+  - Name: City01out
+    forward: -1
+    right: 0
+    defaultDistance: 2
+    maxDistance: 3
+    minDistance: 0.5
+    height: 2
+    smoothFollow: 10
+    xMouseSensitivity: 3
+    yMouseSensitivity: 3
+    yMinLimit: -40
+    yMaxLimit: 80
+    xMinLimit: -360
+    xMaxLimit: 360
+    rotationOffSet: {x: 8, y: 0, z: 0}
+    cullingHeight: 3
+    cullingMinDist: 0.1
+    fov: 90
+    useZoom: 0
+    fixedAngle: {x: 0, y: 0}
+    lookPoints:
+    - pointName: point_02
+      positionPoint: {x: 40.98, y: 6.6, z: 54.71}
+      eulerAngle: {x: -0, y: 265.60806, z: 0}
+      freeRotation: 1
+    cameraMode: 0

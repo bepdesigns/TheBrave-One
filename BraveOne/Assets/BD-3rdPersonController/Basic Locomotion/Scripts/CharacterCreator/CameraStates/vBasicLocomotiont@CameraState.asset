@@ -105,7 +105,7 @@ MonoBehaviour:
     fixedAngle: {x: 0, y: 0}
     lookPoints:
     - pointName: point_01
-      positionPoint: {x: 27.36, y: 7.46, z: -18.86}
-      eulerAngle: {x: 358.52017, y: 0.653597, z: 0.0000026122177}
+      positionPoint: {x: 26.86688, y: 3.066313, z: 30.039497}
+      eulerAngle: {x: 19.251453, y: 206.98521, z: -0.000051999777}
       freeRotation: 1
     cameraMode: 2

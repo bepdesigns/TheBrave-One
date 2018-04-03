@@ -33,12 +33,14 @@ public class QuestObject : MonoBehaviour {
 	public bool textOnQuest;
 	private float waitTime = 3f;
 
+	public GameObject crystals;
 	public GameObject heLLboY;
 
 	// Use this for initialization
 	void Start () {
 		textOnQuest = false;
 		heLLboY.SetActive (false);
+		crystals.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -46,6 +48,7 @@ public class QuestObject : MonoBehaviour {
 	{
 		if (isItemQuest) 
 		{
+			crystals.SetActive (true);
 			if (theQM.itemColleted == targetItem) 
 			{
 				theQM.itemColleted = null;
