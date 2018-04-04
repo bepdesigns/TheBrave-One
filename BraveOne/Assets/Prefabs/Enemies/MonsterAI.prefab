@@ -5145,7 +5145,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyQuestName: The Crimson Rot
-  expToGive: 50
 --- !u!114 &114901840711213020
 MonoBehaviour:
   m_ObjectHideFlags: 1

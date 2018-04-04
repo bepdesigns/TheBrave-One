@@ -11174,7 +11174,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1457801485416822}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 108.3, y: -27.262, z: -305.3}
+  m_LocalPosition: {x: 102.46, y: -28.008, z: -305.3}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 4005228557696714}
@@ -13611,7 +13611,7 @@ Transform:
   m_GameObject: {fileID: 1488633508296102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4351696677679512}
   - {fileID: 4773605713101866}
@@ -17682,7 +17682,7 @@ MonoBehaviour:
   lowerShield: 2
   distanceToChangeWaypoint: 1
   patrollingStopDistance: 0.5
-  pathArea: {fileID: 114874868583032368, guid: 3fab8058358c13e409e63c5ecaa301f4, type: 2}
+  pathArea: {fileID: 0}
   randomWaypoints: 1
   _capsuleCollider: {fileID: 0}
   healthSlider: {fileID: 0}
@@ -18316,7 +18316,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0011586869, y: 0.00012381315, z: 0.009973387}
+  m_ConnectedAnchor: {x: -0.0011586869, y: 0.00012381315, z: 0.009973361}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:
@@ -18536,7 +18536,7 @@ CharacterJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0011586869, y: 0.00012381315, z: 0.009973387}
+  m_ConnectedAnchor: {x: 0.0011586869, y: 0.00012381315, z: 0.009973361}
   serializedVersion: 2
   m_SwingAxis: {x: 0, y: 0, z: -1}
   m_TwistLimitSpring:

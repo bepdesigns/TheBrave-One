@@ -54,6 +54,7 @@ public class PauseMenu : MonoBehaviour {
 
 	public void RestartGame ()
 	{
+		Time.timeScale = 1f;
 		//SceneManager.LoadScene("The Adventure of Courage The Game", LoadSceneMode.Additive);
 		//Scene scene = SceneManager.GetActiveScene(); 
 		//SceneManager.LoadScene(scene.name);
