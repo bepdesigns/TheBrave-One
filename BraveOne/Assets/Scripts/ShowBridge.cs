@@ -11,10 +11,10 @@ public class ShowBridge : MonoBehaviour
 	public Animation lever;
 	public GameObject bridge;
 	public int enemiesToKill;
-	//public Text KeepOnKilling;
+	public Text KeepOnKilling;
 	//public Text EnemiesToKill;
-	//public Image lockImage;
-	//public Image unLockImage;
+	public Image lockImage;
+	public Image unLockImage;
 
 	private float waitTime = 2f;
 		 
@@ -25,10 +25,10 @@ public class ShowBridge : MonoBehaviour
 		bridge.gameObject.SetActive(false);
 		//anim = FindObjectOfType<Animation>();
 		lever = GetComponentInChildren<Animation>();
-		//KeepOnKilling.enabled = false;
+		KeepOnKilling.enabled = false;
 		//EnemiesToKill.enabled = false;
-		//lockImage.enabled = false;
-		//unLockImage.enabled = false;
+		lockImage.enabled = false;
+		unLockImage.enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -49,10 +49,10 @@ public class ShowBridge : MonoBehaviour
 	IEnumerator TextWait()
 	{
 		yield return new WaitForSeconds(waitTime);
-		//KeepOnKilling.enabled = false;
-		//lockImage.enabled = false;
-		//unLockImage.enabled = false;
-		//Destroy(gameObject);
+		KeepOnKilling.enabled = false;
+		lockImage.enabled = false;
+		unLockImage.enabled = false;
+		Destroy(gameObject);
 	 
 	}
 
@@ -61,10 +61,10 @@ public class ShowBridge : MonoBehaviour
 		if (InventoKill.Refrence.KilledEnemies <= enemiesToKill && Input.GetKeyDown (KeyCode.E)) 
 		{
 
-			//KeepOnKilling.text = "Bridge is Close.";
-			//KeepOnKilling.enabled = true;
-			//lockImage.enabled = true;
-			//unLockImage.enabled = false;
+			KeepOnKilling.text = "Bridge is Close.";
+			KeepOnKilling.enabled = true;
+			lockImage.enabled = true;
+			unLockImage.enabled = false;
 			StartCoroutine(TextWait());
 		}
 	}
@@ -79,10 +79,10 @@ public class ShowBridge : MonoBehaviour
 			//anim.Play (anim.clip.name);
 			//anim.Stop ();
 
-			//KeepOnKilling.text = "Bridge is Open.";
-			//KeepOnKilling.enabled = true;
-			//lockImage.enabled = false;
-			//unLockImage.enabled = true;
+			KeepOnKilling.text = "Bridge is Open.";
+			KeepOnKilling.enabled = true;
+			lockImage.enabled = false;
+			unLockImage.enabled = true;
 
 			StartCoroutine(TextWait());
 			InventoKill.Refrence.KilledEnemies = 0;
