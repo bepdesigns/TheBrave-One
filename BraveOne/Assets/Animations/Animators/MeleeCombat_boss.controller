@@ -12432,7 +12432,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: B
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110140466}
@@ -12695,7 +12695,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: A
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110182338}
@@ -13014,7 +13014,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: C
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110192832}
@@ -14783,15 +14783,15 @@ AnimatorStateMachine:
   - first: {fileID: 0}
     second:
     - {fileID: 1109344896163405810}
+  - first: {fileID: 110701130}
+    second:
+    - {fileID: 1109075252467089046}
   - first: {fileID: 110712910}
     second:
     - {fileID: 1109988520706627614}
   - first: {fileID: 110779956}
     second:
     - {fileID: 1109695854346236838}
-  - first: {fileID: 110701130}
-    second:
-    - {fileID: 1109075252467089046}
   - first: {fileID: 1107503741397061610}
     second:
     - {fileID: 1109624683684650572}
@@ -14859,9 +14859,9 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 110752648}
-    second: []
   - first: {fileID: 110756666}
+    second: []
+  - first: {fileID: 110752648}
     second: []
   - first: {fileID: 110751810}
     second: []
@@ -16282,7 +16282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2940e852eb9b874798e470ed9ebf5c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCount: 4
+  attackCount: 7
 --- !u!114 &114167711196437060
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -16424,7 +16424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2940e852eb9b874798e470ed9ebf5c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCount: 4
+  attackCount: 5
 --- !u!114 &114339578575589488
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -16759,7 +16759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2940e852eb9b874798e470ed9ebf5c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCount: 4
+  attackCount: 6
 --- !u!114 &114892661012698730
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -23589,7 +23589,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: F
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101512279717137584}
@@ -23673,7 +23673,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: D
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101152141666736748}
@@ -23814,7 +23814,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: G
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101949656085547974}
@@ -23954,7 +23954,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: E
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101247261061083454}
