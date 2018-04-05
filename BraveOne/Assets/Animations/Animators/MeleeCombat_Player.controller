@@ -16515,8 +16515,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDamage: 0.2
-  endDamage: 0.7
+  startDamage: 0.17
+  endDamage: 0.75
   allowMovementAt: 0.07
   damageMultiplier: 0
   recoilID: 2
@@ -22290,7 +22290,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: fea5106f6eb66a24dadae7e6ed13ac45, type: 3}
+  m_Motion: {fileID: 7400000, guid: d6b1f02a4ef5c6546aae17369609bc2e, type: 3}
   m_Tag: Attack
   m_SpeedParameter: 
   m_MirrorParameter: 

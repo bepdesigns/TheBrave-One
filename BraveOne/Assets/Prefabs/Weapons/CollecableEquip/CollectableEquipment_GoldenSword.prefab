@@ -158,7 +158,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1910218541214120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.518, z: -0.811}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.681886, y: 1.681886, z: 1.5303476}
   m_Children:
   - {fileID: 4951894183795012}
@@ -171,15 +171,15 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661240982500090}
-  m_LocalRotation: {x: 0.053635508, y: 0.7090559, z: 0.0034415126, w: 0.70310116}
-  m_LocalPosition: {x: -22.21047, y: 4.6000004, z: 5.5002346}
-  m_LocalScale: {x: 1.1423726, y: 1.142372, z: 1.1423734}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -154.95526, y: 11.63, z: -25.330154}
+  m_LocalScale: {x: 1.1423726, y: 1.1423725, z: 1.1423739}
   m_Children:
   - {fileID: 224720065709794084}
   - {fileID: 4043079867950548}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4951894183795012
 Transform:
   m_ObjectHideFlags: 1
@@ -187,7 +187,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1283957680984656}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.311}
+  m_LocalPosition: {x: 0, y: 0, z: 1.026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4043079867950548}
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf7aa4aa2663f5347bca7af8c649ee23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: {x: 0, y: 50, z: 0}
+  rotationSpeed: {x: 0, y: 0, z: 50}
 --- !u!114 &114365065637110370
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -640,7 +640,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -1157034534
+  randomSeed: 1795759147
   InitialModule:
     serializedVersion: 3
     enabled: 1
