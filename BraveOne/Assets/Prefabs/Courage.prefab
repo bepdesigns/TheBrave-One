@@ -817,7 +817,6 @@ GameObject:
   - component: {fileID: 54400217668023112}
   - component: {fileID: 114861199602778172}
   - component: {fileID: 144411946897959284}
-  - component: {fileID: 114162529704151542}
   m_Layer: 8
   m_Name: mixamorig:Head
   m_TagString: Untagged
@@ -2186,23 +2185,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1929130026488196
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4689136278714536}
-  - component: {fileID: 114147225882231972}
-  - component: {fileID: 65023098188826888}
-  m_Layer: 2
-  m_Name: hitBox
-  m_TagString: Ignore Ragdoll
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1929414636187606
 GameObject:
   m_ObjectHideFlags: 1
@@ -3190,7 +3172,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4971795961750308}
-  - {fileID: 4689136278714536}
   m_Father: {fileID: 4561955853173250}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3559,19 +3540,6 @@ Transform:
   m_LocalScale: {x: 5.0000005, y: 5.0000005, z: 5.0000005}
   m_Children: []
   m_Father: {fileID: 4259261813248410}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4689136278714536
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929130026488196}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.6588638, y: 3.4593391, z: 1.7463342}
-  m_Children: []
-  m_Father: {fileID: 4470420601843448}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4697518186158572
@@ -5097,18 +5065,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &65023098188826888
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929130026488196}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.46707615, z: 1.0966939}
-  m_Center: {x: 0.00000019895334, y: 0.26646203, z: 0.21857096}
 --- !u!65 &65127026130248442
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -5679,21 +5635,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f0dad368bc2d5944ca75a821ad024ce2, type: 3}
   - {fileID: 8300000, guid: 3bc8b33abc1b51d4badb229b61e36e33, type: 3}
   - {fileID: 8300000, guid: bfa1063bd08a3d54595a731677875059, type: 3}
---- !u!114 &114147225882231972
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1929130026488196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb97f58541b05b24ab37661346298ff2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackObject: {fileID: 0}
-  trigger: {fileID: 65023098188826888}
-  damagePercentage: 100
-  triggerType: -1
 --- !u!114 &114156905293785998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5749,52 +5690,6 @@ MonoBehaviour:
   holderObject: {fileID: 1158458084888900}
   weaponObject: {fileID: 1158458084888900}
   equipDelayTime: 0
---- !u!114 &114162529704151542
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1332495730789086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0befb9e9384ab34d9dfc9d3cabf04b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage:
-    damageValue: 0
-    staminaBlockCost: 0
-    staminaRecoveryDelay: 0
-    ignoreDefense: 0
-    activeRagdoll: 0
-    sender: {fileID: 0}
-    receiver: {fileID: 0}
-    hitPosition: {x: 0, y: 0, z: 0}
-    recoil_id: 0
-    reaction_id: 0
-    attackName: 
-  hitBoxes:
-  - {fileID: 114147225882231972}
-  damageModifier: 0
-  canApplyDamage: 0
-  onDamageHit:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: OnHitEnter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  onRecoilHit:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: OnHitEnter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  onEnableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onDisableDamage:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  meleeManager: {fileID: 0}
 --- !u!114 &114163700050597330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5959,7 +5854,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 0
+  selectedToolbar: 2
   maxHealth: 100
   healthRecovery: 0
   maxStamina: 200
@@ -6562,7 +6457,7 @@ MonoBehaviour:
     isHuman: 1
   - transform: {fileID: 4470420601843448}
     bodyPart: Head
-    attackObject: {fileID: 114162529704151542}
+    attackObject: {fileID: 0}
     isHuman: 0
   defaultDamage:
     damageValue: 5
@@ -7092,6 +6987,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1055902576303968}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: OnHitEnter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   onRecoilHit:
     m_PersistentCalls:
@@ -7099,7 +7005,18 @@ MonoBehaviour:
     m_TypeName: OnHitEnter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   onEnableDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1055902576303968}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onDisableDamage:
@@ -8263,6 +8180,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1055902576303968}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: OnHitEnter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   onRecoilHit:
     m_PersistentCalls:
@@ -8270,7 +8198,18 @@ MonoBehaviour:
     m_TypeName: OnHitEnter, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
   onEnableDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1055902576303968}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onDisableDamage:
@@ -29556,7 +29495,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 1302378081
+  randomSeed: -390656832
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -52961,7 +52900,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1413682128
+  randomSeed: 54937444
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -72986,7 +72925,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1516635428
+  randomSeed: -1197748515
   InitialModule:
     serializedVersion: 3
     enabled: 1
