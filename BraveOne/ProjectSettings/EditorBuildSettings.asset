@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 079db578797b9ce4fa42dcdbfac20133
   - enabled: 1
-    path: Assets/Scenes/The Adventure of Courage The Game.unity
+    path: Assets/Scenes/The Adventure of Courage.unity
     guid: 2c967b33309075f4eb2d582f37610ddf
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 5ea0cf3ad2b5d864ab104c04c80c5d00

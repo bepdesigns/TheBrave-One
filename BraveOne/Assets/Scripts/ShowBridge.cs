@@ -17,6 +17,7 @@ public class ShowBridge : MonoBehaviour
 	public Image unLockImage;
 
 	private float waitTime = 2f;
+
 		 
 
 	// Use this for initialization
@@ -40,11 +41,14 @@ public class ShowBridge : MonoBehaviour
 	{
 		if (other.tag == "Player") 
 		{
-			BridgeLock ();
+			
 			BridgeUnlock ();
-
 		}
-		
+
+		else
+			{
+				BridgeLock ();
+			}
 	}
 	IEnumerator TextWait()
 	{
@@ -52,7 +56,7 @@ public class ShowBridge : MonoBehaviour
 		KeepOnKilling.enabled = false;
 		lockImage.enabled = false;
 		unLockImage.enabled = false;
-		Destroy(gameObject);
+		//Destroy(gameObject);
 	 
 	}
 

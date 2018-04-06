@@ -317,7 +317,7 @@ MonoBehaviour:
   allowMovementAt: 0.1
   damageMultiplier: 0
   recoilID: 0
-  reactionID: 1
+  reactionID: 0
   meleeAttackType: 0
   attackName: Teste
   bodyParts:
@@ -13555,7 +13555,7 @@ AnimatorState:
   m_StateMachineBehaviours:
   - {fileID: 11485918}
   m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
+  m_IKOnFeet: 1
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
@@ -14943,9 +14943,6 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 1107852799657341870}
-    second:
-    - {fileID: 1109083507721140594}
   - first: {fileID: 0}
     second: []
   - first: {fileID: 110778158}
@@ -14972,6 +14969,9 @@ AnimatorStateMachine:
   - first: {fileID: 1107101674451021884}
     second:
     - {fileID: 1109366639539830128}
+  - first: {fileID: 1107852799657341870}
+    second:
+    - {fileID: 1109083507721140594}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 84, y: -72, z: 0}
   m_EntryPosition: {x: 84, y: -36, z: 0}
