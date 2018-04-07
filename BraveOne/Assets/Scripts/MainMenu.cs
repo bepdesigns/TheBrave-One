@@ -8,8 +8,8 @@ public class MainMenu : MonoBehaviour {
 
 	public void Update()
 	{
-		//Cursor.lockState = CursorLockMode.None;
-		//Cursor.visible = true;
+		Cursor.lockState = CursorLockMode.None;
+		Cursor.visible = true;
 	}
 
 	public void PlayGame()
@@ -23,5 +23,12 @@ public class MainMenu : MonoBehaviour {
 	public void QuitGame()
 	{
 		Application.Quit ();
+	}
+
+	public void GameOver()
+	{
+
+		SceneManager.LoadScene (SceneManager.GetActiveScene ().buildIndex - 2);
+		//SceneManager.LoadScene("The Adventure of Courage", LoadSceneMode.Additive);
 	}
 }

@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class StoryLine : MonoBehaviour {
 
-	public void LoadGame ()
+	public void LoadMenu ()
 	{
 		Time.timeScale = 1f;
 		SceneManager.LoadScene("Menu", LoadSceneMode.Additive);
+	}
+
+	public void LoadStory ()
+	{
+		Time.timeScale = 1f;
+		SceneManager.LoadScene("StoryTelling", LoadSceneMode.Additive);
 	}
 }

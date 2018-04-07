@@ -1696,7 +1696,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1120981925516394}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 77.247, y: -27.968, z: -321.3}
+  m_LocalPosition: {x: 108.94, y: -26.219, z: -290.579}
   m_LocalScale: {x: 17, y: 17, z: 17}
   m_Children:
   - {fileID: 4842763019117284}
@@ -3053,7 +3053,18 @@ MonoBehaviour:
   removeComponentsAfterDie: 0
   onReceiveDamage:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 2}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: Invector.CharacterController.OnReceiveDamage, Assembly-CSharp, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onDead:
@@ -3135,7 +3146,7 @@ MonoBehaviour:
   lowerShield: 2
   distanceToChangeWaypoint: 1
   patrollingStopDistance: 0.5
-  pathArea: {fileID: 114874868583032368, guid: 3fab8058358c13e409e63c5ecaa301f4, type: 2}
+  pathArea: {fileID: 0}
   randomWaypoints: 1
   _capsuleCollider: {fileID: 0}
   healthSlider: {fileID: 0}

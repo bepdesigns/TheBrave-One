@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4246730201250988}
   - component: {fileID: 65938653431996010}
   - component: {fileID: 114019317440538764}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: hitBox
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -112,9 +112,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1652449569118606}
-  m_LocalRotation: {x: -0.5659234, y: 0.29658768, z: 0.5077698, w: 0.5778722}
-  m_LocalPosition: {x: 0.03756339, y: -0.080163315, z: -0.020217571}
-  m_LocalScale: {x: 0.12099431, y: 0.13212857, z: 0.12099452}
+  m_LocalRotation: {x: -0.7071068, y: 0.00000022351739, z: 0.00000022538003, w: 0.7071068}
+  m_LocalPosition: {x: 0.10000697, y: -0.8899972, z: 0.1499838}
+  m_LocalScale: {x: 1.2099452, y: 1.3212918, z: 1.2099506}
   m_Children:
   - {fileID: 4052273484892694}
   m_Father: {fileID: 0}

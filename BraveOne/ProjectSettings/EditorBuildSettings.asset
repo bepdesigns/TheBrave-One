@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/StoryTelling.unity
-    guid: af581131039f3ee43b0c036069a411bb
+    path: Assets/Scenes/Splash Screen.unity
+    guid: 22a6291f491c436449d3997486b49d46
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 079db578797b9ce4fa42dcdbfac20133
   - enabled: 1
+    path: Assets/Scenes/Rules.unity
+    guid: a9523fc44a9cb2844be53cf9be22ecc4
+  - enabled: 1
     path: Assets/Scenes/The Adventure of Courage.unity
     guid: 2c967b33309075f4eb2d582f37610ddf
+  - enabled: 1
+    path: Assets/Scenes/StoryTelling.unity
+    guid: af581131039f3ee43b0c036069a411bb
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 5ea0cf3ad2b5d864ab104c04c80c5d00

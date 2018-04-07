@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 4378481272564582}
   - component: {fileID: 65127026130248442}
   - component: {fileID: 114919757583289702}
-  m_Layer: 2
+  m_Layer: 8
   m_Name: hitBox
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -850,7 +850,8 @@ GameObject:
   - component: {fileID: 33126472690352696}
   - component: {fileID: 23640797529194124}
   - component: {fileID: 95995101286282890}
-  m_Layer: 0
+  - component: {fileID: 65517812235308260}
+  m_Layer: 8
   m_Name: Courage_Armor
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -1324,7 +1325,7 @@ GameObject:
   - component: {fileID: 4339513636280394}
   - component: {fileID: 114827888578060246}
   - component: {fileID: 114281256557430754}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Courage_Armor
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -1882,7 +1883,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4917905936538228}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Components
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -2643,7 +2644,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1877181050528156}
   m_LocalRotation: {x: 0.5165828, y: -0.48188505, z: 0.63556254, w: 0.31143132}
-  m_LocalPosition: {x: -1.67, y: 5.38, z: 0.34}
+  m_LocalPosition: {x: -1.17, y: 3.77, z: 0.15}
   m_LocalScale: {x: 5.000001, y: 5, z: 5.0000005}
   m_Children: []
   m_Father: {fileID: 4909395102413820}
@@ -2857,13 +2858,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1494016042369122}
-  m_LocalRotation: {x: -0.5659234, y: 0.29658768, z: 0.5077698, w: 0.5778722}
-  m_LocalPosition: {x: 0.03756339, y: -0.080163315, z: -0.020217571}
-  m_LocalScale: {x: 0.12099431, y: 0.13212857, z: 0.12099452}
+  m_LocalRotation: {x: -0.7071068, y: 0.00000022351739, z: 0.00000022538003, w: 0.7071068}
+  m_LocalPosition: {x: 0.10000697, y: -0.8899972, z: 0.1499838}
+  m_LocalScale: {x: 1.2099452, y: 1.3212918, z: 1.2099506}
   m_Children:
   - {fileID: 4917905936538228}
-  m_Father: {fileID: 4468191662889340}
-  m_RootOrder: 0
+  m_Father: {fileID: 4653978114413808}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &4350440819621690
 Transform:
@@ -3156,8 +3157,7 @@ Transform:
   m_LocalRotation: {x: -0.008449196, y: -0.5687666, z: -0.14932822, w: 0.8087857}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
-  m_Children:
-  - {fileID: 4339513636280394}
+  m_Children: []
   m_Father: {fileID: 4653978114413808}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3468,6 +3468,7 @@ Transform:
   - {fileID: 4428391403683528}
   - {fileID: 4361778377278908}
   - {fileID: 4468191662889340}
+  - {fileID: 4339513636280394}
   m_Father: {fileID: 4943620748686634}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5137,6 +5138,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &65517812235308260
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353830236047936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.033295218, y: 0.027493374, z: 0.0978388}
+  m_Center: {x: -0.00000047590584, y: -0.000000063329935, z: 0.0000000018626442}
 --- !u!65 &65613874492019494
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -29447,7 +29460,7 @@ ParticleSystem:
   stopAction: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -29495,7 +29508,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -390656832
+  randomSeed: 87472788
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -52852,7 +52865,7 @@ ParticleSystem:
   stopAction: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -52900,7 +52913,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 54937444
+  randomSeed: 153862840
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -72877,7 +72890,7 @@ ParticleSystem:
   stopAction: 0
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   useRigidbodyForVelocity: 1
@@ -72925,7 +72938,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: -1197748515
+  randomSeed: -857838022
   InitialModule:
     serializedVersion: 3
     enabled: 1

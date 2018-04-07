@@ -16503,8 +16503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9058122f6ec699438581f28f117350d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startDamage: 0.08
-  endDamage: 0.7
+  startDamage: 0.23
+  endDamage: 0.65
   allowMovementAt: 0.7
   damageMultiplier: 0
   recoilID: 2

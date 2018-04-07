@@ -172,7 +172,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661240982500090}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -154.95526, y: 11.63, z: -25.330154}
+  m_LocalPosition: {x: -154.789, y: 10.93, z: -25.330154}
   m_LocalScale: {x: 1.1423726, y: 1.1423725, z: 1.1423739}
   m_Children:
   - {fileID: 224720065709794084}
@@ -252,7 +252,7 @@ MonoBehaviour:
   disableCollision: 0
   disableGravity: 0
   resetPlayerSettings: 0
-  playAnimation: Pick_Down
+  playAnimation: Pull_Sword
   endExitTimeAnimation: 0.8
   avatarTarget: 0
   matchTargetMask: {x: 0, y: 0, z: 0}
@@ -324,7 +324,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1661240982500090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf7aa4aa2663f5347bca7af8c649ee23, type: 3}
   m_Name: 
