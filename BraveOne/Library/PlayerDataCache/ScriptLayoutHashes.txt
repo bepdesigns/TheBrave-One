@@ -356,6 +356,7 @@ e97ff9540a49b92b779792c195839d33 Assembly-CSharp-firstpass.dll:UnityStandardAsse
 1e37fdaac5e704189f199f9d819479f0 Assembly-CSharp.dll:.vThrowCollectable
 afa22913d739fa0a947a88b2495bcd82 Assembly-CSharp.dll:Invector.ItemManager.vItemWindowDisplay
 2d4b9bfffa17d1db23836aa7aff45e59 Assembly-CSharp.dll:Invector.CharacterController.v2_5D.v2_5DShooterInput
+a554dfb6363cb33d1e247db38b73140b Assembly-CSharp.dll:.LoadingScript_Rules
 1f5e5d32a397a14ea2238e622327a549 Assembly-CSharp.dll:.PauseMenu
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameOver
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp-firstpass.dll:UnityStandardAssets.Effects.FireLight
@@ -541,4 +542,3 @@ a9cf5f162ec4875398cb00d399599edd Assembly-CSharp.dll:.vTriggerGenericAction
 34e025057ef78b1bf238460cdf6583a3 Assembly-CSharp.dll:TMPro.Examples.ObjectSpin
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:TMPro.Examples.SimpleScript
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp-firstpass.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-a554dfb6363cb33d1e247db38b73140b Assembly-CSharp.dll:.LoadingScript_Rules
