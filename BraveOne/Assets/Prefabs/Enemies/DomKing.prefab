@@ -2414,7 +2414,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyQuestName: 
-  expToGive: 50
 --- !u!114 &114101059369332946
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3254,8 +3253,8 @@ MonoBehaviour:
   lowerShield: 2
   distanceToChangeWaypoint: 1
   patrollingStopDistance: 0.5
-  pathArea: {fileID: 0}
-  randomWaypoints: 0
+  pathArea: {fileID: 114930355442011982, guid: 7897c15cee9e3eb4f8d29587321a08c0, type: 2}
+  randomWaypoints: 1
   _capsuleCollider: {fileID: 0}
   healthSlider: {fileID: 0}
   meleeManager: {fileID: 0}

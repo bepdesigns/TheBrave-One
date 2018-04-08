@@ -2770,7 +2770,7 @@ MonoBehaviour:
   lowerShield: 2
   distanceToChangeWaypoint: 1
   patrollingStopDistance: 0.5
-  pathArea: {fileID: 0}
+  pathArea: {fileID: 114729089358443350, guid: b3d64ae628df778498392dfd26eb5345, type: 2}
   randomWaypoints: 1
   _capsuleCollider: {fileID: 0}
   healthSlider: {fileID: 0}

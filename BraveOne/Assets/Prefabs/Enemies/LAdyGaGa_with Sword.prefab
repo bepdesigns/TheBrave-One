@@ -2412,7 +2412,7 @@ Animator:
   m_GameObject: {fileID: 1120981925516394}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: e5cfad2e7173f1f469e881877d0ef540, type: 3}
-  m_Controller: {fileID: 9100000, guid: 3b981e30cb8a4c6409bb74a0f429423b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0b80aa7f666da6948a039c761b95a329, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -3424,7 +3424,7 @@ MonoBehaviour:
   lowerShield: 2
   distanceToChangeWaypoint: 1
   patrollingStopDistance: 0.5
-  pathArea: {fileID: 0}
+  pathArea: {fileID: 114729089358443350, guid: b3d64ae628df778498392dfd26eb5345, type: 2}
   randomWaypoints: 1
   _capsuleCollider: {fileID: 0}
   healthSlider: {fileID: 0}
