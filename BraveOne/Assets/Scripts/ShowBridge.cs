@@ -9,10 +9,15 @@ public class ShowBridge : MonoBehaviour
 	[Header("Active the Lever to open  the bridges")]
 	//public Animation anim;
 	public Animation lever;
+
 	public GameObject bridge;
+	public GameObject gate;
+
 	public int enemiesToKill;
+
 	public Text KeepOnKilling;
 	//public Text EnemiesToKill;
+
 	public Image lockImage;
 	public Image unLockImage;
 
@@ -22,6 +27,8 @@ public class ShowBridge : MonoBehaviour
 
 	// Use this for initialization
 	void Start () {
+
+		gate.gameObject.SetActive (true);
 
 		bridge.gameObject.SetActive(false);
 		//anim = FindObjectOfType<Animation>();
@@ -69,6 +76,7 @@ public class ShowBridge : MonoBehaviour
 			KeepOnKilling.enabled = true;
 			lockImage.enabled = true;
 			unLockImage.enabled = false;
+			gate.gameObject.SetActive (true);
 			StartCoroutine(TextWait());
 		}
 	}
@@ -79,6 +87,7 @@ public class ShowBridge : MonoBehaviour
 			//&& InventoKill.Refrence.haveKey
 			//active the bridge
 			bridge.gameObject.SetActive (true);
+			gate.gameObject.SetActive (false);
 			lever.Play (lever.clip.name);
 			//anim.Play (anim.clip.name);
 			//anim.Stop ();
