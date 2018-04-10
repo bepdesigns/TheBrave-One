@@ -8952,7 +8952,7 @@ MonoBehaviour:
   checkIcon: {fileID: 114000010329529890}
   amountText: {fileID: 114000012787586622}
   item: {fileID: 0}
-  isValid: 0
+  isValid: 1
   isChecked: 0
   onAddItem:
     m_PersistentCalls:
@@ -10239,8 +10239,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114000013598176172}
   m_HandleRect: {fileID: 224000012090801340}
   m_Direction: 2
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -17951,7 +17951,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5, y: 0.000015258789}
+  m_AnchoredPosition: {x: 1.5, y: -0.000030517578}
   m_SizeDelta: {x: -3, y: -132.4}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!224 &224000010560255970
@@ -20005,7 +20005,7 @@ RectTransform:
   m_Father: {fileID: 224000013291245878}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.00000011920929}
   m_AnchorMax: {x: 1, y: 0.9999999}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}

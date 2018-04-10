@@ -16,9 +16,9 @@ MonoBehaviour:
   - Name: Default
     forward: -1
     right: 0
-    defaultDistance: 2
+    defaultDistance: 6
     maxDistance: 8
-    minDistance: 0.6
+    minDistance: 2
     height: 2
     smoothFollow: 10
     xMouseSensitivity: 3
@@ -31,7 +31,7 @@ MonoBehaviour:
     cullingHeight: 3
     cullingMinDist: 0.01
     fov: 90
-    useZoom: 0
+    useZoom: 1
     fixedAngle: {x: 360, y: 78}
     lookPoints:
     - pointName: point_01
