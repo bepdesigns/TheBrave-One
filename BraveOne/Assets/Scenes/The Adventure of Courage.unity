@@ -469,7 +469,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 65623745120556626, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
@@ -4902,7 +4902,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4827170720876544, guid: 1556980de76941a479edb208f84d0c38, type: 2}
       propertyPath: m_LocalScale.x
@@ -5256,7 +5256,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4827170720876544, guid: 1556980de76941a479edb208f84d0c38, type: 2}
       propertyPath: m_LocalScale.x
@@ -9649,7 +9649,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 65623745120556626, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
@@ -9854,7 +9854,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4827170720876544, guid: 1556980de76941a479edb208f84d0c38, type: 2}
       propertyPath: m_LocalScale.x
@@ -61476,7 +61476,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 65623745120556626, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
@@ -66615,7 +66615,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 4827170720876544, guid: 1556980de76941a479edb208f84d0c38, type: 2}
       propertyPath: m_LocalScale.x
@@ -74749,7 +74749,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 727f93138b84b034f827000e249f6380, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.2
+  m_Volume: 0.04
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -101624,7 +101624,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1556980de76941a479edb208f84d0c38, type: 2}
@@ -102223,7 +102223,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1556980de76941a479edb208f84d0c38, type: 2}
@@ -134072,7 +134072,7 @@ Prefab:
     - target: {fileID: 114808109229999894, guid: 1556980de76941a479edb208f84d0c38,
         type: 2}
       propertyPath: repeatRate
-      value: 200
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1556980de76941a479edb208f84d0c38, type: 2}
