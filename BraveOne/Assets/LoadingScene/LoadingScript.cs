@@ -22,7 +22,7 @@ public class LoadingScript : MonoBehaviour {
 			loadingBar.fillAmount += 1.0f / loadingTime * Time.deltaTime;
 		}
 		if (loadingBar.fillAmount == 1.0f) {
-			SceneManager.LoadScene( 1, LoadSceneMode.Single);
+			SceneManager.LoadScene( 2, LoadSceneMode.Single);
 			Destroy(gameObject, 2);
 
 		}
